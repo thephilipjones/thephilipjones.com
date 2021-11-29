@@ -1,6 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
+	mode: 'jit',
 	purge: [
 		'./src/**/*.html',
 		'./src/**/*.njk',
@@ -14,6 +15,7 @@ module.exports = {
 	future: {
 		removeDeprecatedGapUtilities: true,
 	},
+	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {
 			opacity: (theme) => ({
@@ -37,5 +39,8 @@ module.exports = {
 		},
 	},
 	variants: {},
-	plugins: [require('@tailwindcss/custom-forms')],
+	plugins: [
+		require('@tailwindcss/forms'),
+		require('@tailwindcss/typography')
+	],
 }
