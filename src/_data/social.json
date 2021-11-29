@@ -8,35 +8,43 @@
 		"url": ""
 	},
 	{
-		"platform": "github",
-		"url": "https://www.github.com/shanerobinson"
-	},
-	{
 		"platform": "instagram",
-		"url": "https://www.instagram.com/shanerobinson"
+		"url": ""
 	},
 	{
 		"platform": "linkedin",
-		"url": "https://www.linkedin.com/in/rshanerobinson"
+		"url": "https://www.linkedin.com/in/thephilipjones"
 	},
 	{
 		"platform": "piedpiper",
-		"url": "https://www.piedpiper.com/shanerobinson"
+		"url": ""
 	},
 	{
 		"platform": "pinterest",
-		"url": "https://www.pinterest.com/shanerobinson"
-	},
-	{
-		"platform": "rss",
-		"url": "/feed.xml"
+		"url": ""
 	},
 	{
 		"platform": "twitter",
-		"url": "https://www.twitter.com/shanerobinson"
+		"url": "https://www.twitter.com/thephilipjones"
+	},
+	{
+		"platform": "github",
+		"url": "https://www.github.com/thephilipjones"
+	},
+	{
+		"platform": "spotify",
+		"url": "https://open.spotify.com/user/thephilipjones?si=486c945dce724fc4"
 	},
 	{
 		"platform": "youtube",
 		"url": ""
+	},
+	{
+		"platform": "email",
+		"url": ""
+	},
+	{
+		"platform": "rss",
+		"url": "/feed.xml"
 	}
 ]
