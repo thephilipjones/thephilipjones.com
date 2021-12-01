@@ -1,0 +1,16 @@
+
+typer('#typer-text', {min: 30, max: 350})
+    .line('I\'m a ')
+    .continue('Product Manager')
+    .pause(1000)
+    .back(-6, 10)
+    .continue('UX Designer')
+    .pause(1000)
+    .back(-6, 10)
+    .continue('Proud dad')
+    .pause(1000)
+    .back(-6, 10)
+    .continue('Web enthusiast')
+    .pause(5000)
+    .back('all', 10)
+    .repeat(Infinity, true);

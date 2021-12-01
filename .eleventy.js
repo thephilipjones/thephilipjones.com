@@ -12,6 +12,9 @@ const shortcodes = require('./utils/shortcodes.js')
 const pairedshortcodes = require('./utils/paired-shortcodes.js')
 const transforms = require('./utils/transforms.js')
 
+// https://www.11ty.dev/docs/quicktips/inline-js/
+const { minify } = require("terser");
+
 module.exports = function (eleventyConfig) {
 	/**
 	 * Plugins
@@ -149,10 +152,10 @@ module.exports = function (eleventyConfig) {
 	 * Add layout aliases
 	 * @link https://www.11ty.dev/docs/layouts/#layout-aliasing
 	 */
-	eleventyConfig.addLayoutAlias('base', 'layouts/base.njk')
-	eleventyConfig.addLayoutAlias('page', 'layouts/page.njk')
-	eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
-	eleventyConfig.addLayoutAlias('author', 'layouts/author.njk')
+	// eleventyConfig.addLayoutAlias('base', 'layouts/base.njk')
+	// eleventyConfig.addLayoutAlias('page', 'layouts/page.njk')
+	// eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
+	// eleventyConfig.addLayoutAlias('author', 'layouts/author.njk')
 
 	/**
 	 * Opts in to a full deep merge when combining the Data Cascade.
@@ -191,11 +194,39 @@ module.exports = function (eleventyConfig) {
 		// },
 	// })
 
+	/**
+	 * Include typer.js
+	 * This so we can have and test a 404 during local dev.
+	 * @link https://github.com/11ty/eleventy/issues/768 
+	 */
+
+	eleventyConfig.addPassthroughCopy({
+		"node_modules/typer-js/dist/typer.min.css": "assets/typer.min.css",
+		"node_modules/typer-js/dist/typer.min.js": "assets/typer.min.js"
+	});
+
+	// https://www.11ty.dev/docs/quicktips/inline-js/
+	eleventyConfig.addNunjucksAsyncFilter("jsmin", async function (
+		code,
+		callback
+	) {
+		try {
+			const minified = await minify(code);
+			callback(null, minified.code);
+		} catch (err) {
+			console.error("Terser error: ", err);
+			// Fail gracefully.
+			callback(null, code);
+		}
+	});
+	  
+
 	return {
 		dir: {
 			input: 'src',
 			output: 'dist',
 			includes: '_includes',
+			layouts: '_includes/layouts',
 			data: '_data',
 		},
 		passthroughFileCopy: true,
