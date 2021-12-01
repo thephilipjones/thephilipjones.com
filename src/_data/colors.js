@@ -78,6 +78,27 @@ module.exports = {
 		mobileButtonBgHover: 'bg-gray-100',
 	},
 
+	navHome: {
+		barBg: '', /* 'bg-transparent opacity-0', */
+		text: 'text-gray-700',
+		textActive: 'text-gray-800',
+		textHover: 'text-gray-800',
+		textActiveBg: 'bg-gray-100',
+		textFocus: 'text-gray-500',
+		mobileBg: '',
+		mobileBgActive: 'bg-gray-700',
+		mobileBgHover: 'bg-gray-100',
+		mobileBgFocus: 'bg-gray-300',
+		mobileText: 'text-gray-500',
+		mobileTextActive: 'text-gray-300',
+		mobileTextHover: 'text-gray-600',
+		mobileTextFocus: 'text-gray-700',
+		mobileButton: 'text-gray-500',
+		mobileButtonHover: 'text-gray-600',
+		mobileButtonBgHover: 'bg-gray-100',
+	},
+
+
 	/**
 	 * ===== Logo / SVG =====
 	 */
@@ -156,9 +177,9 @@ module.exports = {
 	buttonCustom: {
 		text: '',
 		textHover: '',
-		bg: '',
-		bgHover: '',
-		border: '',
+		bg: 'bg-red-700',
+		bgHover: 'bg-red-800',
+		border: 'border-red-900',
 	},
 
 	/**
@@ -234,7 +255,7 @@ module.exports = {
 		text: 'text-teal-500',
 	},
 	footerCustom: {
-		barBg: 'bg-gray-900',
+		barBg: 'bg-gray-600',
 		text: 'text-gray-100',
 	},
 
