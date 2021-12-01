@@ -2,7 +2,7 @@ module.exports = {
 	siteURL: process.env.URL || 'http://localhost:8080',
 	siteName: "thePhilipJones.com",
 	siteDescription:
-		'Your one-stop-shop for all things Philip Jones.',
+		'the Philip Jones.',
 	siteImage: '/assets/images/site/default.png',
 	lang: 'en',
 	locale: 'en_us',
