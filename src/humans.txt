@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Philip -- Creator -- @twitter.com/thephilipjones
+
+# THANKS
+
+    Entypo pictograms by Daniel Bruce — www.entypo.com
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, JavaScript
+    Jekyll, a little HTML5 Boilerplate
+    Yeoman, Jekyllized, Gulp, Node, etc
+    Foundation, Entypo
