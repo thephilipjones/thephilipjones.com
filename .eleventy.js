@@ -5,6 +5,8 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const pluginSvgSprite = require("eleventy-plugin-svg-sprite");
 const markdownIt = require('markdown-it')
 const markdownItEmoji = require('markdown-it-emoji')
+const markdownItAnchor = require("markdown-it-anchor");
+
 
 // const collections = require('./utils/collections.js')
 const filters = require('./utils/filters.js')
@@ -73,11 +75,18 @@ module.exports = function (eleventyConfig) {
 	 * If "false" or NULL it will be published in PRODUCTION.
 	 * Every Post will ALWAYS be published in DEVELOPMENT so you can preview locally.
 	 */
-	eleventyConfig.addCollection('post', (collection) => {
+	 eleventyConfig.addCollection('post', (collection) => {
 		if (process.env.ELEVENTY_ENV !== 'production')
 			return [...collection.getFilteredByGlob('./src/posts/*.md')]
 		else
 			return [...collection.getFilteredByGlob('./src/posts/*.md')].filter((post) => !post.data.draft)
+	})
+
+	eleventyConfig.addCollection('portfolio', (collection) => {
+		if (process.env.ELEVENTY_ENV !== 'production')
+			return [...collection.getFilteredByGlob('./src/posts/portfolio/*.md')]
+		else
+			return [...collection.getFilteredByGlob('./src/posts/portfolio/*.md')].filter((portfolio) => !portfolio.data.draft)
 	})
 
 	// TAGLIST used from the official eleventy-base-blog  https://github.com/11ty/eleventy-base-blog/blob/master/.eleventy.js
@@ -90,7 +99,7 @@ module.exports = function (eleventyConfig) {
 				tags = tags.filter(function (item) {
 					switch (item) {
 						// this list should match the `filter` list in tags.njk
-						case 'authors':
+						// case 'authors':
 						case 'pages':
 						case 'post':
 							return false
@@ -145,7 +154,7 @@ module.exports = function (eleventyConfig) {
 		linkify: true,
 		typographer: true,
 	}
-	let markdownLib = markdownIt(options).use(markdownItEmoji)
+	let markdownLib = markdownIt(options).use(markdownItEmoji).use(markdownItAnchor)
 	eleventyConfig.setLibrary('md', markdownLib)
 
 	/**

@@ -16,7 +16,7 @@
   <updated>{{ collections.post | rssLastUpdatedDate }}</updated>
   <id>{{ meta.siteURL }}</id>
   <author>
-    <name>{{ meta.authorName }}</name>
+    <name>{{ author or meta.authorName }}</name>
     <email>{{ meta.authorEmail }}</email>
   </author>
   {%- for post in collections.post %}

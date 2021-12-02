@@ -1,0 +1,6 @@
+{
+	"layout": "portfolio",
+	"permalink": "/{{ page.date | dateToFormat('yyyy-MM') }}-{{ title | slugify }}/index.html",
+	"tags": ["portfolio"],
+	"author": "{{ meta.author }}"
+}
