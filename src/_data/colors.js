@@ -7,6 +7,15 @@ module.exports = {
 	 *  check out that tailwind.css file.
 	 * ********************************************************************
 	 *
+	 */
+
+	/**
+	 * ===== Font Family =====
+	 * ok fine not a color
+	 */
+	siteFontDefault: 'font-sans',
+
+	/** 
 	 *
 	 * ===== Global Site Text Color =====
 	 */
@@ -257,6 +266,9 @@ module.exports = {
 	footerCustom: {
 		barBg: 'bg-gray-600',
 		text: 'text-gray-100',
+	},
+	footerCopyrightCustom: {
+		text: 'text-gray-400',
 	},
 
 	/**

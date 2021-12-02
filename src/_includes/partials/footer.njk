@@ -1,6 +1,6 @@
-<footer>
+<footer class="z-10">
   <div class="{{ colors.footerCustom.barBg or colors.footerDefault.barBg }}">
-    <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+    <div class="py-12 md:flex md:items-center md:justify-between {{ structure.g_pageWidth }}"> {# px-4 sm:px-6 lg:px-8 #}
       <div class="flex justify-center md:order-2 {{ colors.socialIconsCustom or colors.socialIconsDefault }}">
         {% if structure.g_showFooterSocialIcons %}
 
@@ -16,8 +16,11 @@
         {% endif %}
       </div>
       <div class="mt-8 md:mt-0 md:order-1">
-        <p class="text-center text-base leading-6 {{ colors.footerCustom.text or colors.footerDefault.text }}">
-          &copy; {{ build.timestamp | dateToFormat('yyyy') }}, {{ meta.siteName }}
+        <p class="text-left text-3xl leading-6 {{ colors.footerCustom.text or colors.footerDefault.text }}">
+          Nice meeting you.
+        </p>
+        <p class="text-left text-sm leading-6 {{ colors.footerCopyrightCustom.text or colors.footerCustom.text or colors.footerDefault.text }}">
+          &copy; {{ build.timestamp | dateToFormat('yyyy') }} {{ meta.authorName }}
         </p>
       </div>
     </div>

@@ -1,21 +1,10 @@
 <div class="absolute flex flex-col items-start justify-center h-full {{ heroSettings.headingTextColor or 'text-white' }} {{ structure.g_pageWidth }}">
-  {% if heroSettings.subheadingFirst %}
-    <div class="pt-4 pr-12 text-lg font-light md:text-2xl lg:text-3xl {{ heroSettings.subheadingTextColor }}">
-        {{ heroSettings.subheadingText | safe }}
-    </div>
-  {% endif %}
-  <div class="text-4xl font-semibold leading-tight {{ heroSettings.headingTextCase }} md:text-6xl">
-    {% if heroSettings.typerText %}
-        <div id="typer-text"></div>
-    {% else %}
-        {{ heroSettings.headingText | safe  }}
-    {% endif %}
+  <div class="pt-4 pr-12 text-lg font-light md:text-2xl lg:text-3xl {{ heroSettings.subheadingTextColor }}">
+      {{ heroSettings.subheadingText | safe }}
   </div>
-  {% if not heroSettings.subheadingFirst %}
-    <div class="pt-4 pr-12 text-lg font-light md:text-2xl lg:text-3xl {{ heroSettings.subheadingTextColor }}">
-        {{ heroSettings.subheadingText | safe }}
-    </div>
-  {% endif %}
+  <div class="text-4xl font-semibold leading-tight {{ heroSettings.headingTextCase }} md:text-6xl">
+    <div id="typer-text"></div>
+  </div>
   {% if heroSettings.buttonText %}
     <div class="w-full mt-12 ">
       <a href="{{ heroSettings.buttonURL }}" class="p-4 rounded-lg {{ heroSettings.buttonTextColor or colors.buttonCustom.text or colors.buttonDefault.text }} {{ heroSettings.buttonBgColor or colors.buttonCustom.bg or colors.buttonDefault.bg }} hover:{{ colors.buttonCustom.textHover or colors.buttonDefault.textHover }} hover:{{ heroSettings.buttonBgHover or colors.buttonCustom.bgHover or colors.buttonDefault.bgHover }} {{ heroSettings.buttonBorder or colors.buttonCustom.border or colors.buttonDefault.border }}">{{ heroSettings.buttonText }}</a>
