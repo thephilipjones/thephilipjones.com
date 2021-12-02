@@ -18,16 +18,16 @@ heroSettings:
     desktop: # leave blank to inherit "mobile" height (default = full screen)
   bg:
     color: # default bg-black
-    image: home/plane.jpg # relative to /assets/images/
+    image: home/DSCF1848.jpeg # relative to /assets/images/
     imagePosition: # options = bg-center (default), bg-left, bg-right
     video: pixabay-john-macdougall.mp4 # local relative /assets/video/, or full https://... if remote?
     opacityMobile: opacity-50 # options opacity-n, 5, 10, 15, 20, 25, 50, 75, 100 (default)
-    opacityDesktop: opacity-75 # Leave blank to inherit opacityMobile, use same options as opacityMobile
+    opacityDesktop: opacity-50 # Leave blank to inherit opacityMobile, use same options as opacityMobile
   typerText: 
     words:
       - Product Manager
       - UX Designer
-  headingText: Is your data lost in the forest,<br>or the trees?
+  headingText: 
   headingTextColor: # default = text-white (can use any TailwindCSS text-[color]-[xxx])
   headingTextCase: # default = as typed - options: uppercase, lowercase, capitalize
   subheadingText: Hey! I'm Philip.
