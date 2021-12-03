@@ -13,7 +13,9 @@ module.exports = {
 	 * ===== Font Family =====
 	 * ok fine not a color
 	 */
-	siteFontDefault: 'font-sans',
+	siteFontDefault: {
+		family: 'font-sans',
+	},
 
 	/** 
 	 *
