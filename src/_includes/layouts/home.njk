@@ -12,6 +12,12 @@
     {# Only include the Typer css if this page uses a Typer #}
     {# {% if heroSettings.typerText -%} #}
       <link rel="stylesheet" href="{{ "/assets/typer.min.css" | url }}">
+      <style>
+        .typer::after {
+          height: 1em;
+          vertical-align: baseline;
+        }
+      </style>
       <!-- Via Unpkg CDN -->
       <!-- <link rel="stylesheet" href="https://unpkg.com/typer-js/dist/typer.min.css"> -->
     {# {%- endif -%} #}
