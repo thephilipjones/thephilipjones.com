@@ -4,9 +4,9 @@ title: Let's talk about static sites!
 layout: page
 excerpt: # used for page excerpts and META (will be overwritten if SEO used below)
 eleventyNavigation: # Required if want to display in Main Nav Bar
-  key: main # "main" is required
-  title: Old # as it will appear in the nav
-  order: 2 # order to display in the nav (index = 1)
+  key:  # "main" is required
+  title:  # as it will appear in the nav
+  order:  # order to display in the nav (index = 1)
 seo: # SEO values are used for OG and will overwrite 'title' and 'excerpt' above
   title:
   description:
