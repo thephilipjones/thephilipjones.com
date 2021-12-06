@@ -24,11 +24,17 @@ seo:
         <dl class="mt-8 text-base leading-6 text-gray-500">
           <div>
             <dt class="sr-only">Postal address</dt>
-            <dd>
+            <dd class="flex">
+              {% svg "home", "mx-2 h-6 w-6 fill-current" %}
+              <span class="ml-3">
+                {{ meta.address.city }}, {{ meta.address.state }}
+              </span>
+            </dd>
+            {# <dd>
               <p>{{ meta.address.street }}</p>
               <p>{{ meta.address.city }}, {{ meta.address.state }}
                 {{ meta.address.zip }}</p>
-            </dd>
+            </dd> #}
           </div>
           {# <div class="mt-6">
             <dt class="sr-only">Phone number</dt>
