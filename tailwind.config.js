@@ -22,6 +22,14 @@ module.exports = {
 			serif: ['Alegreya', 'ui-serif', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif']
 		},
 		extend: {
+			screens: (theme) => ({
+				'xs': '400px'
+			}),
+			colors: (theme) => ({
+				'nav': {
+					DEFAULT: 'rgba(255,255,255,0.7)'
+				}
+			}),
 			opacity: (theme) => ({
 				5: '.05',
 				10: '.1',

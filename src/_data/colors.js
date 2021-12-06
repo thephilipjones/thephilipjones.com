@@ -90,7 +90,7 @@ module.exports = {
 	},
 
 	navHome: {
-		barBg: '', /* 'bg-transparent opacity-0', */
+		barBg: 'bg-nav', /* 'bg-transparent opacity-0', */
 		text: 'text-gray-700',
 		textActive: 'text-gray-800',
 		textHover: 'text-gray-800',
