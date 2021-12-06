@@ -9,8 +9,8 @@ module.exports = {
 	authorName: 'Philip Jones',
 	authorURL: 'thephilipjones.com',
 	authorEmail: 'philip@thephilipjones.com',
-	twitterSite: '@thephilipjones',
-	twitterCreator: '@thephilipjones',
+	twitterSite: 'thephilipjones',
+	twitterCreator: 'thephilipjones',
 	address: {
 		// street: '123 Main Street',
 		city: 'Reston',
