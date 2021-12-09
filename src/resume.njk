@@ -1,0 +1,23 @@
+---
+title: Resume
+date: 2021-12-08
+description: My history
+layout: page
+eleventyNavigation:
+  key: main
+  title: Resume #  as it will appear in the nav
+  order: 2    # order to display in the nav
+seo:
+  title: My life history.
+  description: 
+pagination:
+  data: collections.resume
+  size: 100
+  reverse: true
+  alias: posts
+---
+
+{% set postslist = posts | reverse %}
+
+{% set postlist = ['components/postslistresume.njk'] %}
+{% include postlist | join %}

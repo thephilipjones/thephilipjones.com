@@ -1,6 +1,6 @@
 {
 	"layout": "resume",
-	"permalink": "/{{ page.date | dateToFormat('yyyyMM') }}/{{ title | slugify }}/index.html",
+	"permalink": "/{{ page.date | dateToFormat('yyyy-MM') }}-{{ org | slugify }}/index.html",
 	"tags": ["resume"],
 	"author": "{{ meta.author }}"
 }

@@ -89,6 +89,13 @@ module.exports = function (eleventyConfig) {
 			return [...collection.getFilteredByGlob('./src/posts/portfolio/*.md')].filter((portfolio) => !portfolio.data.draft)
 	})
 
+	eleventyConfig.addCollection('resume', (collection) => {
+		if (process.env.ELEVENTY_ENV !== 'production')
+			return [...collection.getFilteredByGlob('./src/posts/resume/*.md')]
+		else
+			return [...collection.getFilteredByGlob('./src/posts/resume/*.md')].filter((resume) => !resume.data.draft)
+	})
+
 	// TAGLIST used from the official eleventy-base-blog  https://github.com/11ty/eleventy-base-blog/blob/master/.eleventy.js
 	eleventyConfig.addCollection('tagList', function (collection) {
 		let tagSet = new Set()

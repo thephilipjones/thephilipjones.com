@@ -2,6 +2,71 @@
 layout: base
 ---
 
+{# <div class="resume container">
+  <header class="show-for-print">
+    <h1 class="name">Philip Jones</h1>
+  </header>
+  <section class="workplaces" id="work">
+    <h2 class="section__header">Work Experience</h2>
+    <ul class="section__list">
+      {% for post in site.categories['workplace'] %}
+        <li class="section__item workplace">
+          <div class="item__primary">
+            <a class="item__org" href={{ post.link }} target="_blank">
+              <h3>{{ post.org }}</h3>
+            </a>
+            <span class="item__location">{{ post.location }}</span>
+          </div>
+          <p class="item__secondary">
+            {% unless post.title == '' %}
+            <span class="item__title">{{ post.title }}</span>
+            <span class="item__date">
+              <span>{{ post.date | date_to_string }}</span>
+              <span> – </span>
+              <span>
+                {% if post.to-date %}
+                {{ post.to-date | date_to_string }}
+                {% else %}Present{% endif %}
+              </span>
+            </span>
+            {% endunless %}
+          </p>
+          <div class="item__content">
+            {{ post.content }}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section class="schools" id="education">
+    <h2 class="section__header">Education</h2>
+    <ul class="section__list">
+      {% for post in site.categories['school'] %}
+        <li class="section__item school">
+          <div class="item__primary">
+            <a class="item__org" href={{ post.link }} target="_blank">
+              <h3>{{ post.org }}</h3>
+            </a>
+            <span class="item__location">{{ post.location }}</span>
+          </div>
+          <p class="item__secondary">
+            <span class="item__title">{{ post.title }}</span>
+            <span class="item__date">
+              <span>{{ post.date | date_to_string }}</span>
+              <span> – </span>
+              <span>{{ post.to-date | date_to_string }}</span>
+            </span>
+          </p>
+          <div class="item__content">
+            {{ post.content }}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
+ #}
+
 <article class="{{ structure.g_pageWidth }}">
 
   <h1 class="{{ colors.headingsCustom or colors.headingsDefault }}">{{ seo.title or title }}</h1>
