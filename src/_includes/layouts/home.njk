@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&family=Alegreya:wght@400;700&display=swap" rel="stylesheet">     <link rel="alternate" type="application/atom+xml" title="RSS Feed for {{ meta.siteName }}" href="/feed.xml"/>
     {%- include "partials/head.njk" %}
+    {% set philipCSS %}{% include "src/assets/css/philip.css" %}{% endset -%}
+    <style>
+      {{philipCSS | cssmin | safe}}
+    </style>
+    {%- include "partials/head.njk" %}
     {# Only include the Typer css if this page uses a Typer #}
     {# {% if heroSettings.typerText -%} #}
       <link rel="stylesheet" href="{{ "/assets/typer.min.css" | url }}">
