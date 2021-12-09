@@ -33,7 +33,7 @@ heroSettings:
   subheadingText: Hey! I'm Philip.
   subheadingTextColor: # Leave empty to inherit headingTextColor or default (text-white) or use any text-[color]-[xxx]
   subheadingFirst: true
-  buttonText: Contact Me... # no button generated if left blank
+  buttonText: Contact Me # no button generated if left blank
   buttonURL: /contact/ # full url required. Example: https://thisdomain.com/somepage/
   buttonTextColor: # leave blank to inherit from /src/_data/colors.buttonCustom or buttonDefault
   buttonBgColor: # leave blank to inherit from /src/_data/colors.buttonCustom.bg or buttonDefault.bg
