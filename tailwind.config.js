@@ -2,7 +2,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
 	mode: 'jit',
-	purge: [
+	content: [
 		'./src/**/*.html',
 		'./src/**/*.njk',
 		'./src/**/*.md',
@@ -15,7 +15,6 @@ module.exports = {
 	future: {
 		removeDeprecatedGapUtilities: true,
 	},
-	darkMode: false, // or 'media' or 'class'
 	theme: {
 		fontFamily: {
 			sans: ['Alegreya Sans', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
@@ -50,7 +49,6 @@ module.exports = {
 			}),
 		},
 	},
-	// variants: {},
 	plugins: [
 		require('@tailwindcss/forms'),
 		require('@tailwindcss/typography')
