@@ -1,7 +1,7 @@
 ---
 layout: resume
 date: 2012-12-03
-to-date: 2013-12-31T00:00:00-05:00
+toDate: 2013-12-31T00:00:00-05:00
 org: Logi Analytics
 link: http://www.logianalytics.com
 location: McLean, VA

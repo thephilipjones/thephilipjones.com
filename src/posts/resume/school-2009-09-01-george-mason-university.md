@@ -1,7 +1,7 @@
 ---
 layout: resume
 date: 2009-09-01
-to-date: 2011-05-09T00:00:00-05:00
+toDate: 2011-05-09T00:00:00-05:00
 org: George Mason University
 link: http://www.gmu.edu
 location: Fairfax, VA

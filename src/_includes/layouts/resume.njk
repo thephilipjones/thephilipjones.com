@@ -24,8 +24,8 @@ layout: base
               <span>{{ post.date | date_to_string }}</span>
               <span> – </span>
               <span>
-                {% if post.to-date %}
-                {{ post.to-date | date_to_string }}
+                {% if post.toDate %}
+                {{ post.toDate | date_to_string }}
                 {% else %}Present{% endif %}
               </span>
             </span>
@@ -54,7 +54,7 @@ layout: base
             <span class="item__date">
               <span>{{ post.date | date_to_string }}</span>
               <span> – </span>
-              <span>{{ post.to-date | date_to_string }}</span>
+              <span>{{ post.toDate | date_to_string }}</span>
             </span>
           </p>
           <div class="item__content">

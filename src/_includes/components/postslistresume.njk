@@ -12,24 +12,24 @@
         <li class="mb-12">
           <div class="flex justify-between items-baseline">
             <a class="" href={{ post.data.link | url }} target="_blank">
-              <h3 class="mt-4 mb-0 {{ colors.headingsCustom or colors.headingsDefault }}">{{ post.data.org }}</h3>
+              <h4 class="mt-4 mb-0 {{ colors.headingsCustom or colors.headingsDefault }}">{{ post.data.org }}</h4>
             </a>
             <span class="item__location">{{ post.data.location }}</span>
           </div>
-          <p class="flex justify-between flex-wrap text-gray-800">
+          <div class="flex justify-between flex-wrap mt-0 text-gray-800">
             {% if post.data.title %}
-            <span class="">{{ post.data.title }}</span>
+            <h2 class="pt-0">{{ post.data.title }}</h2>
             <span class="item__date">
               <time datetime="{{ post.data.date | dateToFormat("yyyy-MM") }}">{{ post.data.date | dateToFormat("LLL yyyy") }}</time>
               <span> – </span>
               <span>
-                {% if post.data.to-date %}
-                <time datetime="{{ post.data.to-date | dateToFormat("yyyy-MM") }}">{{ post.data.to-date | dateToFormat("LLL yyyy") }}</time>
+                {% if post.data.toDate %}
+                <time datetime="{{ post.data.toDate | dateToFormat("yyyy-MM") }}">{{ post.data.toDate | dateToFormat("LLL yyyy") }}</time>
                 {% else %}Present{% endif %}
               </span>
             </span>
             {% endif %}
-          </p>
+          </div>
 
           {# If you don't want to display the Tag Pills, set "false" in /src/_data/structure.js #}
           {% if structure.g_showTagPills %}

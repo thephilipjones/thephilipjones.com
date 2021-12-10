@@ -2,7 +2,7 @@
 layout: resume
 draft: true
 date: 2014-01-01
-to-date:
+toDate:
 org: Logi Analytics
 link: http://www.logianalytics.com
 location: McLean, VA
