@@ -6,10 +6,10 @@ draft:
 seo:
   title:
   description:
-  image: portfolio/sl1-dashboards.png
+  image: portfolio/sl1-dashboards-1.png
 images: # relative to /src/assets/images/
-  feature:
-  thumb: portfolio/sl1-dashboards.png
+  feature: portfolio/sl1-dashboards-1.png
+  thumb: portfolio/sl1-dashboards-1.png
   slide:
 tags:
   - product-manager
