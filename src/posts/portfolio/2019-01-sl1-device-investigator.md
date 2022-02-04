@@ -28,8 +28,6 @@ So, if you see a device, say a server, go red on your screen, you investigate it
 
 ### Which version is this?!
 
-This is such a 
-
 Prebuilt Dashboard or Metrics Browser.
 Summary tab vs Performance tab.
 

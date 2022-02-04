@@ -18,21 +18,18 @@ tags:
 ---
 
 
-## TL;DR: I've learned...
+## Operational visibility at scale.
 
- - end-to-end value proposition
+Global Manager.
 
+### Big checks speak loudly.
 
- - A lot about vision, and how to craft a cohesive narrative
- - How to prioritize business value alongside user delight
- - 
- 
+Our largest customer played the card in their contract: thou shalt build me a multi-stack monitoring solution. So... we did!
 
-## Big checks speak loudly
+### Lessons...
 
-Our largest customer played the card in their contract: you will work on .
-
-## 
+ - Names matter.
+ - Sticking to a focus is okay!
 
 ### The Symposium sizzle
 
