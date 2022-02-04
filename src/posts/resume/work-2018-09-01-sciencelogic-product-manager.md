@@ -1,6 +1,6 @@
 ---
 layout: resume
-draft: true
+draft: 
 date: 2018-09-01
 toDate:
 org: ScienceLogic

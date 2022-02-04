@@ -1,6 +1,6 @@
 ---
 layout: resume
-draft: true
+draft: 
 date: 2016-08-15
 toDate: 2018-09-01
 org: ScienceLogic
@@ -10,8 +10,8 @@ title: UX Designer
 type: work
 categories: resume workplace
 highlights:
-- title: 1
-- title: 2
+- title: Lead product design for New UI transformation
+- title: UX Generalist - research, flows, mockups, you name it
 ---
 
 Designed user interfaces:

@@ -1,6 +1,6 @@
 ---
 layout: resume
-draft: true
+draft: 
 date: 2014-01-01
 toDate:
 org: Logi Analytics
