@@ -1,7 +1,7 @@
 ---
 title: SL1 Global Manager
 date: 2018-01-01T00:00:00.000Z
-excerpt: Visualize IT monitoring insights.
+excerpt: Operational visibility across our largest deployments.
 draft: 
 seo:
   title:
@@ -33,3 +33,7 @@ tags:
 Our largest customer played the card in their contract: you will work on .
 
 ## 
+
+### The Symposium sizzle
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NBjuwpbVfPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
