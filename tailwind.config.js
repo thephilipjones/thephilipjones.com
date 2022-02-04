@@ -24,6 +24,9 @@ module.exports = {
 			screens: (theme) => ({
 				'xs': '400px'
 			}),
+			backgroundColor: (theme) => ({
+				'stone-150': 'rgb(238,236,234)'
+			}),
 			colors: (theme) => ({
 				'nav': {
 					DEFAULT: 'rgba(255,255,255,0.7)'

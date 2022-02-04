@@ -23,6 +23,9 @@ module.exports = {
 	 */
 	siteTextDefault: 'text-gray-900',
 	siteTextCustom: '',
+	
+	siteBgDefault: 'bg-stone-150',
+	/** siteBgCustom: '', **/
 
 	/**
 	 * Reason for both 'xxxDefault' and 'xxxCustom'
