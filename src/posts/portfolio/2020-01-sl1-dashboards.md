@@ -21,6 +21,13 @@ tags:
 
 I was sought out by ScienceLogic's HR and UX teams largely for my experience with dashboards. Since then, I've spent five years designing, prioritizing, and refining the data visualization narrative of ScienceLogic's "New UI" transformation.
 
+### TL;DR: I've learned:
+
+ - A lot about *vision*, and how to craft a cohesive narrative
+ - How to prioritize *business value* alongside *user delight*
+ - The value of *focus*, when so many requests are flying
+
+
 ### Background: SL1 does everything.
 
 SL1 is our endlessly extensible *platform*. It sucks in all sorts of data, collected from servers, networking gear, cloud services, and all types of devices. It produces events and derives status, especially in layers of business-value abstractions. Our biggest customers manage dozens of SL1 deployments, each of which monitors tens of thousands of devices, which produce hundreds of millions of rows of data over time... but that still needs to produce something humanly understandable and manageable. 
@@ -64,7 +71,7 @@ If I have to be critically self-aware, dashboards may never escape their "flexib
 
  "Dashboards", I've learned, means all things things to all people.
 
-### **Lessons...**
+### **Lessons yet again...**
 
  - A lot about *vision*, and how to craft a cohesive narrative
  - How to prioritize *business value* alongside *user delight*
