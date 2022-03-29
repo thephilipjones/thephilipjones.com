@@ -54,6 +54,17 @@
               </div>
             {% endif %}
 
+            {% if post.data.certifications %}
+              <div class="mt-6">
+                <h5 class="">Certifications</h5>
+                <ul class="pt-0">
+                  {% for certification in post.data.certifications %}
+                    <li>{% if certification.link %}<a class="" href={{ certification.link | url }}>{% endif %}{{ certification.title }}{% if certification.link %}</a>{% endif %}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+
             {# If you don't want to display the Tag Pills, set "false" in /src/_data/structure.js #}
             {% if structure.g_showTagPills %}
               <div class="pt-2">

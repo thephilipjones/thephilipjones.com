@@ -21,6 +21,11 @@ projects:
   link: "/2019-01-sl1-device-investigator/"
 - title: SL1 Global Manager
   link: "/2018-01-sl1-global-manager/"
+certifications:
+- title: Pragmatic Management Certified PMC-III
+- title: Certified SAFe 5 Product Owner/Product Manager
+- title: Certified SAFe 4 Scrum Master
+  link: https://www.youracclaim.com/badges/1d477edf-abd5-4e09-b53c-e947faf1c809/linked_in_profile
 ---
 
 Designed user interfaces:
