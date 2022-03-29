@@ -12,6 +12,9 @@ categories: resume workplace
 highlights:
 - title: Lead product design for New UI transformation
 - title: UX Generalist - research, flows, mockups, you name it
+projects:
+- title: SL1 Dashboards
+  link: "/2020-01-sl1-dashboards"
 ---
 
 Designed user interfaces:

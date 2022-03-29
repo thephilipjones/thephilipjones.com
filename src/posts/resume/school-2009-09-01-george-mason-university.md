@@ -5,9 +5,14 @@ toDate: 2011-05-09T00:00:00-05:00
 org: George Mason University
 link: http://www.gmu.edu
 location: Fairfax, VA
-title: MA, Psychology&#58; Human Factors and Applied Cognition
+title: "MA, Psychology: Human Factors and Applied Cognition"
 type: school
 categories: resume school
+highlights:
+- title: Systems Design and Cognitive Engineering
+- title: Human Performance and Task Analysis
+- title: Interaction Behaviors and Usability Testing
+- title: President, ACM SIGCHI GMU chapter
 ---
 
 Systems Design and Cognitive Engineering:

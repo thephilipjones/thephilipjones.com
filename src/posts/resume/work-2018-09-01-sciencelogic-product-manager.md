@@ -14,6 +14,13 @@ highlights:
 - title: Define and execute the product vision and roadmap with internal and external stakeholders
 - title: Work closely with Engineering and Design at macro and micro levels to ensure successful delivery
 - title: Validate with customers and users to ensure alignment with Sales and Customer Success
+projects:
+- title: SL1 Dashboards
+  link: "/2020-01-sl1-dashboards"
+- title: SL1 Device Investigator
+  link: "/2019-01-sl1-device-investigator/"
+- title: SL1 Global Manager
+  link: "/2018-01-sl1-global-manager/"
 ---
 
 Designed user interfaces:
