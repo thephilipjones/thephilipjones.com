@@ -1,5 +1,12 @@
 @tailwind base;
 
+.skill {
+	@apply bg-stone-300 p-1 rounded-sm;
+}
+.skill:hover {
+	@apply bg-stone-400;
+}
+
 h1,
 h2,
 h3,

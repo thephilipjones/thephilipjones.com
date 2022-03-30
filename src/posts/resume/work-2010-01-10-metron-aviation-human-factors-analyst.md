@@ -21,15 +21,17 @@ Led product teams to solve design problems:
 Supported software development with research in constrained environment:
 
 - Evaluated usability through <span class="skill">contextual inquiry</span> and research in experimental (e.g. FAA Tech Center) and operational facilities (e.g. Delta Airlines air traffic operations floor)
--	Produced <span class="skill">UX expert reviews</span> to avoid wasted re-work and unify interface
--	Designed <span class="skill">software architecture</span> and database/systems artifacts with Visio, Enterprise Architect
+- Produced <span class="skill">UX expert reviews</span> to avoid wasted re-work and unify interface
+- Designed <span class="skill">software architecture</span> and database/systems artifacts with Visio, Enterprise Architect
 
 Contributed in-house:
 
--	Designed and <span class="skill">developed</span> custom Excel analytical tools, including <span class="skill">writing VBA</span> to automate workflows
+- Designed and <span class="skill">developed</span> custom Excel analytical tools, including <span class="skill">writing VBA</span> to automate workflows
 - Presented <span class="skill">brown-bag</span> seminar (“Usability 101”) to educate and evangelize to the company
--	Represented UX/UI "front-end" in volunteer process-improvement Software Community of Practice
+- Represented UX/UI "front-end" in volunteer process-improvement Software Community of Practice
 - Completed training in Capability Maturity Model Integration (CMMI) V1.2 (July 2010)
--	Implemented <span class="skill">CMMI</span> processes across our growing business with “nimble, creative, effective” vision
+- Implemented <span class="skill">CMMI</span> processes across our growing business with “nimble, creative, effective” vision
+
+### Publications
 
 Lee, B. M., Feigh, K., Lard, J., & **Jones, P.** (2010, November). *En-route fuel optimization algorithm user interface design*. Paper presented at the annual International Conference on Human-Computer Interaction in Aerospace, Cape Canaveral, FL.
