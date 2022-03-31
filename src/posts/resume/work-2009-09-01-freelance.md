@@ -19,8 +19,8 @@ type: work
 
 <span class="skill">IT support</span> and tech environment setup for a small business
 
--	<span class="skill">Consulting</span>, troubleshooting, repairing, recommending, and installing hardware/software
--	<span class="skill">Training users on new/improved functionality
+- <span class="skill">Consulting</span>, troubleshooting, repairing, recommending, and installing hardware/software
+- <span class="skill">Training users on new/improved functionality
 
 Side projects
 

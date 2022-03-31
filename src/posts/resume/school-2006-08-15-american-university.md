@@ -9,9 +9,9 @@ title: BA, Psychology
 type: school
 categories: resume school
 highlights:
-- title: Science-focused general psychology and statistics
-- title: Psi Chi National Honor Society in Psychology  
-- title: National Society of Collegiate Scholars
+  - title: Science-focused general psychology and statistics
+  - title: Psi Chi National Honor Society in Psychology
+  - title: National Society of Collegiate Scholars
 ---
 
 Psi Chi National Honor Society in Psychology  

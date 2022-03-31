@@ -2,7 +2,7 @@
 title: thePhilipJones.com
 date: 2021-12-01T00:00:00.000Z
 excerpt: A refreshed Internet presence.
-draft: 
+draft:
 seo:
   title:
   description:
@@ -20,9 +20,9 @@ tags:
 
 I created the first version of this site in 2014/2015. I built it on the new hotness of the time: single-site generators. Jekyll, Gulp, Bower.
 
-I learned a lot about web development that you can only really understand by drawing Pepe Silvia diagrams trying to connect the dots together. 
+I learned a lot about web development that you can only really understand by drawing Pepe Silvia diagrams trying to connect the dots together.
 
-> IMAGE FROM ALWAYS SUNNY 
+> IMAGE FROM ALWAYS SUNNY
 
 I haven't really touched it since then, and I needed to set up the dev environment on my shiny new MacBook Pro. In the spirit of continuous improvement, I wanted to rethink what I was communicating anyway.
 

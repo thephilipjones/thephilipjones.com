@@ -2,7 +2,7 @@
 title: SL1 Dashboards
 date: 2020-01-01T00:00:00.000Z
 excerpt: Visualize IT monitoring insights.
-draft: 
+draft:
 seo:
   title:
   description:
@@ -23,24 +23,23 @@ I was sought out by ScienceLogic's HR and UX teams largely for my experience wit
 
 ### TL;DR: I've learned:
 
- - A lot about *vision*, and how to craft a cohesive narrative
- - How to prioritize *business value* alongside *user delight*
- - The value of *focus*, when so many requests are flying
-
+- A lot about _vision_, and how to craft a cohesive narrative
+- How to prioritize _business value_ alongside _user delight_
+- The value of _focus_, when so many requests are flying
 
 ### Background: SL1 does everything.
 
-SL1 is our endlessly extensible *platform*. It sucks in all sorts of data, collected from servers, networking gear, cloud services, and all types of devices. It produces events and derives status, especially in layers of business-value abstractions. Our biggest customers manage dozens of SL1 deployments, each of which monitors tens of thousands of devices, which produce hundreds of millions of rows of data over time... but that still needs to produce something humanly understandable and manageable. 
+SL1 is our endlessly extensible _platform_. It sucks in all sorts of data, collected from servers, networking gear, cloud services, and all types of devices. It produces events and derives status, especially in layers of business-value abstractions. Our biggest customers manage dozens of SL1 deployments, each of which monitors tens of thousands of devices, which produce hundreds of millions of rows of data over time... but that still needs to produce something humanly understandable and manageable.
 
 SL1 has been a complicated and powerful platform since it was started 20 years ago, and the traditional customer base of Managed Service Providers (MSP) like it that way. The more recent goal to take over the Enterprise and Federal markets, though, is an entirely different beast. I was hired as a key part of a tiny skunkworks team that would rethink the entire user experience for modern user needs and modern markets, and we identified dashboards as an immediate target.
 
-### **Past:** Sources and views. 
+### **Past:** Sources and views.
 
 Rewind: 2017. As the only UX Designer at the time, I worked daily with the mercurial but brilliant chief architect on this "New UI" transformation. We systematically broke down the types of important monitoring data that our customers collect and store on the platform. Identifying the primary data types, shapes, relationships, and visualizations enabled us to put together a surprisingly composable set of components into a powerful IT monitoring tool.
 
 Data "sources" closely mirror the customizable data model. The "views" are the visualizations. "Filters" are pluggable, and "selections" connect widgets together. Everything else is just "nerd knobs" - toggles, options, customizations.
 
-My team is responsible for this framework and core features, building blocks that enable users to visualize the answer to their question. I'm proud of the modularity that gets the most flexibility our of our development dollar. But I have also made sure to unify our external dashboard narrative alongside internal "customers": SMEs who deliver dashboard content for each hybrid-cloud technology, as well as Professional Services who customize and deliver to spec. 
+My team is responsible for this framework and core features, building blocks that enable users to visualize the answer to their question. I'm proud of the modularity that gets the most flexibility our of our development dollar. But I have also made sure to unify our external dashboard narrative alongside internal "customers": SMEs who deliver dashboard content for each hybrid-cloud technology, as well as Professional Services who customize and deliver to spec.
 
 ### **Past:** Taking the helm.
 
@@ -62,20 +61,20 @@ My latest vision? Recently, I've gotten buy-in that the next great dashboard sho
 
 If I have to be critically self-aware, dashboards may never escape their "flexible" and "powerful" underpinnings. There's still an organizational imbalance compared to "make it obvious how to build one", not to mention successful end-to-end delivery of prebuilt content "out of the box". I do think it would be different without the looming everpresent comparison to the Classic UI Dashboards that we may never fully replace, but there may simply be too many asks to fit in one feature coherently...
 
- - Jump in and learn to build quickly
- - Share a really cool insight with colleagues
- - Schedule an exported report to be emailed
- - Deep-dive into troubleshooting an issue
- - Elegantly display CTO-level status on a non-interactive TV
- - Heck, develop your own custom code to drive entire workflows
+- Jump in and learn to build quickly
+- Share a really cool insight with colleagues
+- Schedule an exported report to be emailed
+- Deep-dive into troubleshooting an issue
+- Elegantly display CTO-level status on a non-interactive TV
+- Heck, develop your own custom code to drive entire workflows
 
- "Dashboards", I've learned, means all things things to all people.
+"Dashboards", I've learned, means all things things to all people.
 
 ### **Lessons yet again...**
 
- - A lot about *vision*, and how to craft a cohesive narrative
- - How to prioritize *business value* alongside *user delight*
- - The value of *focus*, when so many requests are flying
+- A lot about _vision_, and how to craft a cohesive narrative
+- How to prioritize _business value_ alongside _user delight_
+- The value of _focus_, when so many requests are flying
 
 That last one. The big one. Focus. When you have too many projects going on, building a "v1" is often all that's funded. Maybe investment in engineering R&D grows as quickly as ambitions do, but someone might just have to be disappointed.
 

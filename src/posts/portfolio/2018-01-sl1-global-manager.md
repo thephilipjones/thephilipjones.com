@@ -2,7 +2,7 @@
 title: SL1 Global Manager
 date: 2018-01-01T00:00:00.000Z
 excerpt: Operational visibility across our largest deployments.
-draft: 
+draft:
 seo:
   title:
   description:
@@ -17,7 +17,6 @@ tags:
   - webapp
 ---
 
-
 ## Operational visibility at scale.
 
 Global Manager.
@@ -28,8 +27,8 @@ Our largest customer played the card in their contract: thou shalt build me a mu
 
 ### Lessons...
 
- - Names matter.
- - Sticking to a focus is okay!
+- Names matter.
+- Sticking to a focus is okay!
 
 ### The Symposium sizzle
 
