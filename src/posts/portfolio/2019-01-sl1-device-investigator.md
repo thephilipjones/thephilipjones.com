@@ -2,7 +2,7 @@
 title: SL1 Device Investigator
 date: 2019-01-01T00:00:00.000Z
 excerpt: Identify what's happening and fix it.
-draft: 
+draft:
 seo:
   title:
   description:
@@ -17,7 +17,6 @@ tags:
   - webapp
 ---
 
-
 ## What is going on with this device?!
 
 Devices are the core of SL1. (Check out the Dashboards diatribe for more on SL1, and how I took over Device Management.)
@@ -26,7 +25,9 @@ One of the easiest way to describe our software to a layperson: "what the IT guy
 
 So, if you see a device, say a server, go red on your screen, you investigate it. And that's why you're looking at the Device Investigator saying "What is going on with this device?!"
 
-### Which version is this?!
+### One page to rule them all.
+
+Which version is this?!
 
 Prebuilt Dashboard or Metrics Browser.
 Summary tab vs Performance tab.
@@ -34,7 +35,6 @@ Summary tab vs Performance tab.
 Can the Investigator do both? Only to some degree.
 
 ### Lessons...
-
 
 ### The Symposium sizzle
 
