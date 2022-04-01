@@ -8,6 +8,8 @@ location: Dulles, VA
 title: Human Factors Analyst
 type: work
 categories: resume workplace
+certifications:
+  - title: CMMI Level 5 training
 ---
 
 Led product teams to solve design problems:

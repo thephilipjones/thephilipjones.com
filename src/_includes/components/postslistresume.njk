@@ -57,11 +57,24 @@
             {% if post.data.certifications %}
               <div class="mt-6">
                 <h5 class="">Certifications</h5>
-                <ul class="pt-0">
-                  {% for certification in post.data.certifications %}
-                    <li>{% if certification.link %}<a class="" href={{ certification.link | url }}>{% endif %}{{ certification.title }}{% if certification.link %}</a>{% endif %}</li>
-                  {% endfor %}
-                </ul>
+                {% if post.data.certification_images %}
+                  <div class="flex justify-between">
+                    <div class="flex-auto">
+                      <ul class="pt-0">
+                        {% for certification in post.data.certifications %}
+                          <li>{% if certification.link %}<a class="" href={{ certification.link | url }}>{% endif %}{{ certification.title }}{% if certification.link %}</a>{% endif %}</li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                    <div class="flex-initial flex">
+                      {% for certification_image in post.data.certification_images %}
+                        {% if certification_image.link %}<a class="" href={{ certification_image.link | url }}>{% endif %}
+                          {% if certification_image.image %}<img class="w-16 h-16 mr-2" src="/assets/images/{{ certification_image.image }}" />{% endif %}
+                        {% if certification_image.link %}</a>{% endif %}
+                      {% endfor %}
+                    </div>
+                  </div>
+              {% endif %}
               </div>
             {% endif %}
 
