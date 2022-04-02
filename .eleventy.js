@@ -2,11 +2,10 @@ const fs = require('fs')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const pluginNavigation = require('@11ty/eleventy-navigation')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
-const pluginSvgSprite = require("eleventy-plugin-svg-sprite");
+const pluginSvgSprite = require('eleventy-plugin-svg-sprite')
 const markdownIt = require('markdown-it')
 const markdownItEmoji = require('markdown-it-emoji')
-const markdownItAnchor = require("markdown-it-anchor");
-
+const markdownItAnchor = require('markdown-it-anchor')
 
 // const collections = require('./utils/collections.js')
 const filters = require('./utils/filters.js')
@@ -15,7 +14,7 @@ const pairedshortcodes = require('./utils/paired-shortcodes.js')
 const transforms = require('./utils/transforms.js')
 
 // https://www.11ty.dev/docs/quicktips/inline-js/
-const { minify } = require("terser");
+const { minify } = require('terser')
 
 module.exports = function (eleventyConfig) {
 	/**
@@ -27,8 +26,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation)
 	eleventyConfig.addPlugin(syntaxHighlight)
 	eleventyConfig.addPlugin(pluginSvgSprite, {
-		path: "./src/assets/svg",
-		globalClasses: "fill-current"
+		path: './src/assets/svg',
+		globalClasses: 'fill-current',
 	})
 
 	/**
@@ -75,25 +74,31 @@ module.exports = function (eleventyConfig) {
 	 * If "false" or NULL it will be published in PRODUCTION.
 	 * Every Post will ALWAYS be published in DEVELOPMENT so you can preview locally.
 	 */
-	 eleventyConfig.addCollection('post', (collection) => {
+	eleventyConfig.addCollection('post', (collection) => {
 		if (process.env.ELEVENTY_ENV !== 'production')
 			return [...collection.getFilteredByGlob('./src/posts/*.md')]
 		else
-			return [...collection.getFilteredByGlob('./src/posts/*.md')].filter((post) => !post.data.draft)
+			return [...collection.getFilteredByGlob('./src/posts/*.md')].filter(
+				(post) => !post.data.draft
+			)
 	})
 
 	eleventyConfig.addCollection('portfolio', (collection) => {
 		if (process.env.ELEVENTY_ENV !== 'production')
 			return [...collection.getFilteredByGlob('./src/posts/portfolio/*.md')]
 		else
-			return [...collection.getFilteredByGlob('./src/posts/portfolio/*.md')].filter((portfolio) => !portfolio.data.draft)
+			return [
+				...collection.getFilteredByGlob('./src/posts/portfolio/*.md'),
+			].filter((portfolio) => !portfolio.data.draft)
 	})
 
 	eleventyConfig.addCollection('resume', (collection) => {
 		if (process.env.ELEVENTY_ENV !== 'production')
 			return [...collection.getFilteredByGlob('./src/posts/resume/*.md')]
 		else
-			return [...collection.getFilteredByGlob('./src/posts/resume/*.md')].filter((resume) => !resume.data.draft)
+			return [
+				...collection.getFilteredByGlob('./src/posts/resume/*.md'),
+			].filter((resume) => !resume.data.draft)
 	})
 
 	// TAGLIST used from the official eleventy-base-blog  https://github.com/11ty/eleventy-base-blog/blob/master/.eleventy.js
@@ -161,7 +166,9 @@ module.exports = function (eleventyConfig) {
 		linkify: true,
 		typographer: true,
 	}
-	let markdownLib = markdownIt(options).use(markdownItEmoji).use(markdownItAnchor)
+	let markdownLib = markdownIt(options)
+		.use(markdownItEmoji)
+		.use(markdownItAnchor)
 	eleventyConfig.setLibrary('md', markdownLib)
 
 	/**
@@ -196,46 +203,45 @@ module.exports = function (eleventyConfig) {
 	// 			},
 	// 		},
 	// 	},
-		// Set local server 404 fallback
-		// callbacks: {
-		// 	ready: function (err, browserSync) {
-		// 		const content_404 = fs.readFileSync('dist/404.html')
+	// Set local server 404 fallback
+	// callbacks: {
+	// 	ready: function (err, browserSync) {
+	// 		const content_404 = fs.readFileSync('dist/404.html')
 
-		// 		browserSync.addMiddleware('*', (req, res) => {
-		// 			// Provides the 404 content without redirect.
-		// 			res.write(content_404)
-		// 			res.end()
-		// 		})
-		// 	},
-		// },
+	// 		browserSync.addMiddleware('*', (req, res) => {
+	// 			// Provides the 404 content without redirect.
+	// 			res.write(content_404)
+	// 			res.end()
+	// 		})
+	// 	},
+	// },
 	// })
 
 	/**
 	 * Include typer.js
 	 * This so we can have and test a 404 during local dev.
-	 * @link https://github.com/11ty/eleventy/issues/768 
+	 * @link https://github.com/11ty/eleventy/issues/768
 	 */
 
 	eleventyConfig.addPassthroughCopy({
-		"node_modules/typer-js/dist/typer.min.css": "assets/typer.min.css",
-		"node_modules/typer-js/dist/typer.min.js": "assets/typer.min.js"
-	});
+		'node_modules/typer-js/dist/typer.min.css': 'assets/typer.min.css',
+		'node_modules/typer-js/dist/typer.min.js': 'assets/typer.min.js',
+	})
 
 	// https://www.11ty.dev/docs/quicktips/inline-js/
-	eleventyConfig.addNunjucksAsyncFilter("jsmin", async function (
-		code,
-		callback
-	) {
-		try {
-			const minified = await minify(code);
-			callback(null, minified.code);
-		} catch (err) {
-			console.error("Terser error: ", err);
-			// Fail gracefully.
-			callback(null, code);
+	eleventyConfig.addNunjucksAsyncFilter(
+		'jsmin',
+		async function (code, callback) {
+			try {
+				const minified = await minify(code)
+				callback(null, minified.code)
+			} catch (err) {
+				console.error('Terser error: ', err)
+				// Fail gracefully.
+				callback(null, code)
+			}
 		}
-	});
-	  
+	)
 
 	return {
 		dir: {

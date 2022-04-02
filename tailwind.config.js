@@ -17,20 +17,44 @@ module.exports = {
 	},
 	theme: {
 		fontFamily: {
-			sans: ['Alegreya Sans', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
-			serif: ['Alegreya', 'ui-serif', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif']
+			sans: [
+				'Alegreya Sans',
+				'ui-sans-serif',
+				'system-ui',
+				'-apple-system',
+				'BlinkMacSystemFont',
+				'Segoe UI',
+				'Roboto',
+				'Helvetica Neue',
+				'Arial',
+				'Noto Sans',
+				'sans-serif',
+				'Apple Color Emoji',
+				'Segoe UI Emoji',
+				'Segoe UI Symbol',
+				'Noto Color Emoji',
+			],
+			serif: [
+				'Alegreya',
+				'ui-serif',
+				'Georgia',
+				'Cambria',
+				'Times New Roman',
+				'Times',
+				'serif',
+			],
 		},
 		extend: {
 			screens: (theme) => ({
-				'xs': '400px'
+				xs: '400px',
 			}),
 			backgroundColor: (theme) => ({
-				'stone-150': 'rgb(238,236,234)'
+				'stone-150': 'rgb(238,236,234)',
 			}),
 			colors: (theme) => ({
-				'nav': {
-					DEFAULT: 'rgba(255,255,255,0.7)'
-				}
+				nav: {
+					DEFAULT: 'rgba(255,255,255,0.7)',
+				},
 			}),
 			opacity: (theme) => ({
 				5: '.05',
@@ -52,8 +76,5 @@ module.exports = {
 			}),
 		},
 	},
-	plugins: [
-		require('@tailwindcss/forms'),
-		require('@tailwindcss/typography')
-	],
+	plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 }
