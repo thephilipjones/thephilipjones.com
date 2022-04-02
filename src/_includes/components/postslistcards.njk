@@ -36,6 +36,18 @@
               </div> #}
 
               {# Used conditionals here to keep control at the template levels rather than at the component level.  #}
+              {# Display the Date block if structure.g_showDates is true (default) #}
+              {% if structure.g_showDates %}
+                {# Only display the Date Block if there is a value for "date" in Post Frontmatter #}
+                {% if post.data.date %}
+                  {# {% set postDate = dates | getDate(post.data.date) %} #}
+                    <div class="flex text-sm leading-5">
+                      <time datetime="{{ post.date | dateToFormat("yyyy") }}">{{ post.date | dateToFormat("yyyy") }}</time>
+                    </div>
+                {% endif %}
+              {% endif %}
+
+              {# Used conditionals here to keep control at the template levels rather than at the component level.  #}
               {# Display the Author block if structure.g_showAuthors is true (default) #}
               {% if structure.g_showAuthors %}
                 {# Only display the Author Block if there is a value for "author" in Post Frontmatter #}

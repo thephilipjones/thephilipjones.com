@@ -41,6 +41,11 @@ module.exports = {
 	g_showAuthors: false,
 
 	/**
+	 * ===== Display Date Blocks =====
+	 */
+	g_showDates: true,
+
+	/**
 	 * ===== Display Footer & Social Share Icons =====
 	 *
 	 * Set to fully disable display of the Social Links in the footer.
