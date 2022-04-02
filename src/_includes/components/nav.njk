@@ -1,5 +1,5 @@
 {% set navPages = collections.pages | eleventyNavigation %}
-<nav x-data="{ open: false }" class="{{ colors.navHome.barBg if layout=='home' else colors.navCustom.barBg or colors.navDefault.barBg }} shadow relative z-10">
+<nav x-data="{ open: false }" class="print:hidden {{ colors.navHome.barBg if layout=='home' else colors.navCustom.barBg or colors.navDefault.barBg }} shadow relative z-10">
   <div class="{{ structure.g_pageWidth }}">
     <div class="flex justify-between h-16">
       <div class="flex">

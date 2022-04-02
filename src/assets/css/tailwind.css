@@ -6,30 +6,53 @@
 .skill:hover {
 	@apply bg-stone-400;
 }
+@layer base {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-semibold text-gray-700;
+	}
+	h1 {
+		@apply text-5xl;
+	}
+	h2 {
+		@apply pt-12 text-4xl;
+	}
+	h3 {
+		@apply pt-8 text-3xl;
+	}
+	h4 {
+		@apply text-2xl;
+	}
+	h5 {
+		@apply text-xl;
+	}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	@apply font-semibold text-gray-700;
+	@media print {
+		h1 {
+			@apply text-3xl;
+		}
+		h2 {
+			@apply pt-12 text-2xl;
+		}
+		h3 {
+			@apply pt-8 text-xl;
+		}
+		h4 {
+			@apply text-lg;
+		}
+		h5 {
+			@apply text-base;
+		}
+		.skill {
+			@apply bg-none p-0;
+		}
+	}
 }
-h1 {
-	@apply text-5xl;
-}
-h2 {
-	@apply pt-12 text-4xl;
-}
-h3 {
-	@apply pt-8 text-3xl;
-}
-h4 {
-	@apply text-2xl;
-}
-h5 {
-	@apply text-xl;
-}
+
 p a,
 li a,
 blockquote a,
