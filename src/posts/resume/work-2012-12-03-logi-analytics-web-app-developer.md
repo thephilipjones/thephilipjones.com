@@ -8,6 +8,9 @@ location: McLean, VA
 title: Web App Developer
 type: work
 categories: resume workplace
+highlights:
+  - title: Embedded in Sales Engineering team to demonstrate platform value to prospects
+  - title: Create and maintain example BI apps with latest technologies
 ---
 
 Developed business intelligence web applications:
