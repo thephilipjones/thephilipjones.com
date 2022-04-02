@@ -1,8 +1,2 @@
 @media print {
-    a[href] {
-      text-decoration: none;
-      &:after {
-        content: "";
-      }
-    }
-  }
+}

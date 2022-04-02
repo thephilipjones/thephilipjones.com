@@ -32,6 +32,12 @@
 	}
 
 	@media print {
+		a[href] {
+			text-decoration: none;
+			&:after {
+				content: '';
+			}
+		}
 		h1 {
 			@apply text-3xl;
 		}

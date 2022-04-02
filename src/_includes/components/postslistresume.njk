@@ -19,7 +19,7 @@
             </div>
             <div class="flex justify-between flex-wrap mt-0 text-gray-800">
               {% if post.data.title %}
-              <a href="{{ post.url | url }}"><h2 class="flex-1 pt-0">{{ post.data.title }}</h2></a>
+              <a href="{{ post.url | url }}" class="flex-1"><h2 class="pt-0">{{ post.data.title }}</h2></a>
               <div class="flex-shrink-0 inline item__date">
                 <time datetime="{{ post.data.date | dateToFormat("yyyy-MM") }}">{{ post.data.date | dateToFormat("LLL yyyy") }}</time>
                 <span> – </span>
@@ -109,7 +109,7 @@
       </ul>
 
     </div>
-    <hr class="mt-8 text-stone-400" />
+    <hr class="mt-8 text-stone-800" />
     <h2 class="mt-4 mb-8 text-sm leading-none uppercase tracking-wide">Education</h2>
     <div class="flex flex-wrap -mt-4 -mb-10">
       <ul class="flex-1 list-none p-0 mx-0">
@@ -124,7 +124,7 @@
             </div>
             <div class="flex justify-between flex-wrap mt-0 text-gray-800">
               {% if post.data.title %}
-              <a href="{{ post.url | url }}"><h2 class="flex-1 pt-0">{{ post.data.title }}</h2></a>
+              <a href="{{ post.url | url }}" class="flex-1"><h2 class="pt-0">{{ post.data.title }}</h2></a>
               <div class="flex-shrink-0 inline item__date">
                 <time datetime="{{ post.data.date | dateToFormat("yyyy-MM") }}">{{ post.data.date | dateToFormat("LLL yyyy") }}</time>
                 <span> – </span>
