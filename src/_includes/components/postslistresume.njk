@@ -19,8 +19,8 @@
             </div>
             <div class="flex justify-between flex-wrap mt-0 text-gray-800">
               {% if post.data.title %}
-              <a href="{{ post.url | url }}" class="block"><h2 class="pt-0">{{ post.data.title }}</h2></a>
-              <span class="item__date">
+              <a href="{{ post.url | url }}"><h2 class="flex-1 pt-0">{{ post.data.title }}</h2></a>
+              <div class="flex-shrink-0 inline item__date">
                 <time datetime="{{ post.data.date | dateToFormat("yyyy-MM") }}">{{ post.data.date | dateToFormat("LLL yyyy") }}</time>
                 <span> – </span>
                 <span>
@@ -28,7 +28,7 @@
                   <time datetime="{{ post.data.toDate | dateToFormat("yyyy-MM") }}">{{ post.data.toDate | dateToFormat("LLL yyyy") }}</time>
                   {% else %}Present{% endif %}
                 </span>
-              </span>
+              </div>
               {% endif %}
             </div>
 
@@ -59,13 +59,13 @@
                 <h5 class="">Certifications</h5>
                 {% if post.data.certification_images %}
                   <div class="flex justify-between">
-                    <div class="flex-auto">
+                    <div class="flex-auto">{% endif %}
                       <ul class="pt-0">
                         {% for certification in post.data.certifications %}
                           <li>{% if certification.link %}<a class="" href={{ certification.link | url }}>{% endif %}{{ certification.title }}{% if certification.link %}</a>{% endif %}</li>
                         {% endfor %}
                       </ul>
-                    </div>
+                    {% if post.data.certification_images %}</div>
                     <div class="flex-initial flex">
                       {% for certification_image in post.data.certification_images %}
                         {% if certification_image.link %}<a class="" href={{ certification_image.link | url }}>{% endif %}
@@ -124,8 +124,8 @@
             </div>
             <div class="flex justify-between flex-wrap mt-0 text-gray-800">
               {% if post.data.title %}
-              <h2 class="pt-0">{{ post.data.title }}</h2>
-              <span class="item__date">
+              <a href="{{ post.url | url }}"><h2 class="flex-1 pt-0">{{ post.data.title }}</h2></a>
+              <div class="flex-shrink-0 inline item__date">
                 <time datetime="{{ post.data.date | dateToFormat("yyyy-MM") }}">{{ post.data.date | dateToFormat("LLL yyyy") }}</time>
                 <span> – </span>
                 <span>
@@ -133,7 +133,7 @@
                   <time datetime="{{ post.data.toDate | dateToFormat("yyyy-MM") }}">{{ post.data.toDate | dateToFormat("LLL yyyy") }}</time>
                   {% else %}Present{% endif %}
                 </span>
-              </span>
+              </div>
               {% endif %}
             </div>
 
