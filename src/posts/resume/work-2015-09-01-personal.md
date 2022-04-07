@@ -1,12 +1,12 @@
 ---
 layout: resume
-date: 2015-09-01
+# date: 2015-09-01
 # toDate: 2015-08-15
-org: Personal
+org: ''
 resume: Personal
-location: NoVA
+location: ''
 categories: resume workplace
-title: ''
+title: Personal Projects
 type: work
 highlights:
   - title: Keeping up to date with state-of-the-art technologies
