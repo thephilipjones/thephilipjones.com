@@ -46,13 +46,82 @@
             {% if post.data.projects %}
               <div class="mt-6">
                 <h5 class="">Projects</h5>
-                <ul class="pt-0">
+
+                <ul class="hidden print:block pt-0">
                   {% for project in post.data.projects %}
                     <li><a class="" href={{ project.link | url }}>{{ project.title }}</a></li>
                   {% endfor %}
                 </ul>
+                <div class="print:hidden relative mx-auto max-w-7xl">
+                  {# <div class="grid gap-8 mx-auto mt-12 md:grid-cols-2 xl:grid-cols-3 lg:max-w-none"> #}
+                  <div class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start mb-8 p-2 pb-4 -ml-2">
+                    {# {% set things = post.data.resume %} #}
+                    {% set projectlist = collections.portfolio | getPostsByTag(post.data.resume) | reverse %}
+                    {# {% set projectlist = collections.things | reverse %} #}
+                    {# | filterByResume("ScienceLogicUX")  #}
+                    {# getFilteredByTag("ScienceLogicUX") #}
+                    {# myPosts(collections, post.data.resume)  #}
+                    {# | resumeFilter(post.data.resume)  #}
+                    {# collections.resumeCollection #}
+                    {# getAll().filter(post.resume) #}
+                    {% for project in projectlist %}
+
+                    {# {% for project in post.data.projects %}  #}
+
+                      {# <div class="flex flex-col overflow-hidden rounded-lg shadow-lg"> #}
+                      <div class="flex-none w-2/3 md:w-1/3 mr-8 last:mr-0 md:pb-4 border rounded-lg shadow-lg">
+                        <div class="shrink-0">
+                          <a href="{{ project.url | url }}">
+                            <img class="object-cover {{ project.data.images.align }} w-full h-48" src={% if project.data.images.thumb %}"/assets/images/{{ project.data.images.thumb }}"{% else %}"/assets/images/david-kovalenko-G85VuTpw6jg-unsplash.jpg"{% endif %} alt="{{ title }} Thumbnail">
+                          </a>
+                        </div>
+                        <div class="flex flex-col justify-between flex-1 p-6 bg-white">
+                          <div class="flex-1">
+                            <a href="{{ project.url | url }}" class="block">
+                              <h3 class="pt-0 text-2xl font-semibold leading-7 {{ colors.headingsCustom or colors.headingsDefault }}">
+                                {{ project.data.title }}
+                              </h3>
+
+                              {# Display project Excerpt if set 'true' in /src/_data/structure.js:g_showExcerpt  #}
+                              {% if structure.g_showExcerpt %}
+                                <div class="{{ colors.excerptCustom or colors.excerptDefault }}">
+                                  {{ project.data.excerpt }}
               </div>
             {% endif %}
+
+                            </a>
+                          </div>
+
+                          {# Used conditionals here to keep control at the template levels rather than at the component level.  #}
+                          {# Display the Date block if structure.g_showDates is true (default) #}
+                          {% if structure.g_showDates %}
+                            {# Only display the Date Block if there is a value for "date" in project Frontmatter #}
+                            {% if project.data.date %}
+                              {# {% set projectDate = dates | getDate(project.data.date) %} #}
+                                <div class="flex text-base leading-5">
+                                  <time datetime="{{ project.date | dateToFormat("yyyy") }}">{{ project.date | dateToFormat("yyyy") }}</time>
+                                </div>
+                            {% endif %}
+                          {% endif %}
+
+                          {# Used conditionals here to keep control at the template levels rather than at the component level.  #}
+                          {# Display the Author block if structure.g_showAuthors is true (default) #}
+                          {% if structure.g_showAuthors %}
+                            {# Only display the Author Block if there is a value for "author" in project Frontmatter #}
+                            {% if project.data.author %}
+                              {% set projectAuthor = authors | getAuthor(project.data.author) %}
+                              {% include "components/authordate.njk" %}
+                            {% endif %}
+                          {% endif %}
+                        </div>
+                      </div>
+
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+
 
             {% if post.data.certifications %}
               <div class="mt-6">

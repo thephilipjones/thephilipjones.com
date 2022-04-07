@@ -66,6 +66,10 @@ module.exports = {
 		return posts.filter((a) => a.data.type === key)
 	},
 
+	getPostsByTag: (posts, key) => {
+		return posts.filter((a) => a.data.tags.includes(key))
+	},
+
 	/**
 	 * Minify and inline CSS per a tip on 11ty: https://www.11ty.dev/docs/quicktips/inline-css/
 	 */
