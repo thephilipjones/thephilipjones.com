@@ -27,9 +27,9 @@ tags: pages
   </div> #}
 
   {% if seo.description %}
-    <div class="print:hidden italic text-stone-600 text-base {{ colors.borderCustom.color or colors.borderDefault.color }}">
+    <div class="hidden sm:block italic text-stone-600 text-base {{ colors.borderCustom.color or colors.borderDefault.color }}">
       {# {{ colors.borderCustom.borders or colors.borderDefault.borders }}  #}
-      {{ seo.description }}
+      <div class="print:hidden">{{ seo.description }}</div>
     </div>
   {% endif %}
 
