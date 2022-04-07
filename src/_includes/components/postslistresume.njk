@@ -1,19 +1,19 @@
-<section class="mt-12">
-  <div class="container pb- mx-auto">
+<section class="mt-12 print:mt-0">
+  <div class="container pb- mx-auto print:mx-0">
 
     {# <h4 class="text-stone-400"><i>under construction - see <a href="http://thephilipjones.com/resume" target="_blank">v1</a> for historical details</i></h4>
     <hr class="text-stone-400" /> #}
 
 
-    <h2 class="mt-4 mb-8 text-sm leading-none uppercase tracking-wide">Work Experience</h2>
+    <h2 class="mt-4 mb-8 print:mt-0 print:pt-4 text-sm leading-none uppercase tracking-wide">Work Experience</h2>
     <div class="flex flex-wrap -mt-4 -mb-10">
       <ul class="flex-1 list-none p-0 mx-0">
         {% for post in postslist | getPostsByType("work") | reverse %}
 
-          <li class="mb-12">
+          <li class="mb-12 print:mb-2">
             <div class="flex justify-between items-baseline">
               <a class="" href={{ post.data.link | url }} target="_blank">
-                <h4 class="mt-4 mb-0 {{ colors.headingsCustom or colors.headingsDefault }}">{{ post.data.org }}</h4>
+                <h4 class="mt-4 print:mt-0 mb-0 {{ colors.headingsCustom or colors.headingsDefault }}">{{ post.data.org }}</h4>
               </a>
               <span class="item__location">{{ post.data.location }}</span>
             </div>
@@ -33,7 +33,7 @@
             </div>
 
             {% if post.data.highlights %}
-              <div class="mt-6">
+              <div class="mt-6 print:mt-3">
                 <h5 class="">Highlights</h5>
                 <ul class="pt-0">
                   {% for highlight in post.data.highlights %}
@@ -44,7 +44,7 @@
             {% endif %}
 
             {% if post.data.projects %}
-              <div class="mt-6">
+              <div class="mt-6 print:mt-3">
                 <h5 class="">Projects</h5>
 
                 <ul class="hidden print:block pt-0">
@@ -86,9 +86,8 @@
                               {% if structure.g_showExcerpt %}
                                 <div class="{{ colors.excerptCustom or colors.excerptDefault }}">
                                   {{ project.data.excerpt }}
-              </div>
-            {% endif %}
-
+                                </div>
+                              {% endif %}
                             </a>
                           </div>
 
@@ -124,7 +123,7 @@
 
 
             {% if post.data.certifications %}
-              <div class="mt-6">
+              <div class="mt-6 print:mt-3">
                 <h5 class="">Certifications</h5>
                 {% if post.data.certification_images %}
                   <div class="flex justify-between">
@@ -135,7 +134,7 @@
                         {% endfor %}
                       </ul>
                     {% if post.data.certification_images %}</div>
-                    <div class="flex-initial flex">
+                    <div class="print:hidden flex-initial flex">
                       {% for certification_image in post.data.certification_images %}
                         {% if certification_image.link %}<a class="" href={{ certification_image.link | url }}>{% endif %}
                           {% if certification_image.image %}<img class="w-16 h-16 mr-2" src="/assets/images/{{ certification_image.image }}" />{% endif %}
