@@ -9,7 +9,9 @@ categories: resume workplace
 title: ''
 type: work
 highlights:
-  - title: Keeping up to date with web technologies
+  - title: Keeping up to date with state-of-the-art technologies
+  - title: Building personal websites
+  - title: UX design experiments
 ---
 
 Side projects

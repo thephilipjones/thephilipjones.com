@@ -37,14 +37,22 @@ certification_images: # relative to /src/assets/images/
     link: https://www.youracclaim.com/badges/1d477edf-abd5-4e09-b53c-e947faf1c809/linked_in_profile
 ---
 
-Designed user interfaces:
+Build and deliver IT software that solves business problems
 
-- <span class="skill"></span>
+Define and execute the product vision and roadmap with internal and external stakeholders
 
-Designed and analyzed user tests:
+- Create <span class="skill">PRD</span> Product Requirements documents to guide execution of multi-year feature development
+- Reach out across the organization to get stakeholder feedback about projects and proposals
+- Reach out to customer partners to learn pain points and evaluate requests
 
-- <span class="skill"></span>
+Work closely with Engineering and Design at macro and micro levels to ensure successful delivery
 
-Supported Product Management:
+- Prioritize value-add features based on organizational roadmap
+- Work through complex enterprise <span class="skill">Release Management</span> to deliver hotfix version x.y.z.a to the customer who needs it now
 
-- Wrote <span class="skill">user stories</span> to explain complex interactions and functionality
+<span class="skill">Validate</span> with customers and users to ensure alignment with Sales and Customer Success
+
+Managed multiple scrum teams as a Product Owner:
+
+- Maintain healthy <span class="skill">backlog</span> by writing detailed stories with UX and engineering buy-in
+- Make day-to-day decisions by bringing customer and user perspective to engineering

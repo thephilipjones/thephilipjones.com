@@ -23,8 +23,9 @@ Designed user interfaces:
 
 Designed and analyzed user tests:
 
-- Created customer <span class="skill"></span>
+- Created customer feedback group, tracked and distributed with <span class="skill">Mailchimp</span>
 
-Supported Product Management:
+Supported Product and scrum teams:
 
-- Wrote <span class="skill">user stories</span> to explain complex interactions and functionality
+- Led whiteboarding extravaganzas working through complicated user workflows
+- Wrote detailed <span class="skill">user stories</span> to explain complex interactions and functionality

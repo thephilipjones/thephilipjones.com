@@ -9,7 +9,9 @@ categories: resume workplace
 title: Technical Consultant
 type: work
 highlights:
-  - title: Technical odd jobs.
+  - title: Hardware/software design for an early-stage medical device startup
+  - title: IT environment design and maintenance for a local small business
+  - title: Support desk in university computer lab
 ---
 
 <span class="skill">Hardware</span> and <span class="skill">software design</span> of a home medical device for an early-stage startup
@@ -24,8 +26,3 @@ highlights:
 
 - <span class="skill">Consulting</span>, troubleshooting, repairing, recommending, and installing hardware/software
 - <span class="skill">Training users on new/improved functionality
-
-Side projects
-
-- <span class="skill">UX design</span> experiments
-- <span class="skill">Front-end development</span> research and prototypes
