@@ -1,7 +1,7 @@
 ---
 title: SL1 Device Investigator
 date: 2019-01-01T00:00:00.000Z
-excerpt: Identify what's happening and fix it.
+excerpt: What's happening? Help fix it!
 draft:
 seo:
   title:
