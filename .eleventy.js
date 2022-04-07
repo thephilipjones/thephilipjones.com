@@ -144,9 +144,9 @@ module.exports = function (eleventyConfig) {
 	 * Passthrough File Copy
 	 * @link https://www.11ty.dev/docs/copy/
 	 */
-	eleventyConfig.addPassthroughCopy('src/*.png')
-	eleventyConfig.addPassthroughCopy('src/*.jpg')
-	eleventyConfig.addPassthroughCopy('src/*.ico')
+	// eleventyConfig.addPassthroughCopy('src/*.png')
+	// eleventyConfig.addPassthroughCopy('src/*.jpg')
+	// eleventyConfig.addPassthroughCopy('src/*.ico')
 	eleventyConfig.addPassthroughCopy('src/robots.txt')
 	eleventyConfig.addPassthroughCopy('src/assets/images/')
 	eleventyConfig.addPassthroughCopy('src/assets/svg/')

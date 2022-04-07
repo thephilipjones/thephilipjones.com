@@ -26,8 +26,12 @@
 <meta name="twitter:title" content="{{ seo.title or title }}{% if seo.title or title %} | {% endif %}{{ meta.siteName }}" />
 <meta name="twitter:description" content="{{ seo.description or excerpt or meta.siteDescription }}" />
 {#- Favicon #}
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png' | url }}">
-<link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-32x32.png' | url }}" sizes="32x32">
-<link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-16x16.png' | url }}" sizes="16x16">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png?v=1' | url }}">
+<link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-32x32.png?v=1' | url }}" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-16x16.png?v=1' | url }}" sizes="16x16">
+<link rel="manifest" href="{{ '/assets/images/favicon/site.webmanifest?v=1' | url }}">
+<link rel="mask-icon" href="{{ '/assets/images/favicon/safari-pinned-tab.svg?v=1' | url }}" color="#5bbad5">
+<link rel="shortcut icon" href="{{ '/assets/images/favicon/favicon.ico?v=1' | url }}">
+
 {#- RSS Feed #}
 <link type="application/atom+xml" rel="alternate" href="{{ build.url }}/feed.xml" title="{{ meta.siteName }} XML Feed">
