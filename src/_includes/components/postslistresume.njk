@@ -16,7 +16,7 @@
     <hr class="text-stone-400" /> #}
 
 
-    <h2 class="sm:mt-4 mb-8 print:mt-0 print:pt-4 text-base leading-none uppercase tracking-wide">Work Experience</h2>
+    <h2 class="sm:mt-4 mb-8 print:mt-0 print:pt-0 text-base leading-none uppercase tracking-wide">Work Experience</h2>
     <div class="-mt-4 -mb-10">
       <ul class="list-none p-0 mx-0">
         {% for post in postslist | getPostsByType("work") | reverse %}
@@ -28,7 +28,7 @@
 
     </div>
     <hr class="mt-8 text-stone-800" />
-    <h2 class="mt-4 mb-8 print:pt-4 text-base leading-none uppercase tracking-wide">Education</h2>
+    <h2 class="sm:mt-4 mb-8 print:mt-0 print:pt-0 text-base leading-none uppercase tracking-wide">Education</h2>
     <div class="flex flex-wrap -mt-4 -mb-10">
       <ul class="flex-1 list-none p-0 mx-0">
         {% for post in postslist | getPostsByType("school") | reverse %}
