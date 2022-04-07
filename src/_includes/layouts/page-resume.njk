@@ -1,0 +1,26 @@
+---
+layout: base
+tags: pages
+---
+
+<article class="{{ structure.g_pageWidth }}">
+
+  <div class="hidden print:flex">
+    <h1 class="flex-1 {{ colors.headingsCustom or colors.headingsDefault }}">Philip Jones</h1>
+    <div class="flex-0 flex flex-col pt-1 items-end">
+      <div class="leading-3">philip<span class="text-blue-700">@thephilipjones</span>.com</div>
+      <div>919-649-9089</div>
+    </div>
+  </div>
+
+  <h1 class="print:hidden {{ colors.headingsCustom or colors.headingsDefault }}">{{ seo.title or title }}</h1>
+
+  {% if seo.description %}
+    <div class="p-2 {{ colors.borderCustom.borders or colors.borderDefault.borders }} {{ colors.borderCustom.color or colors.borderDefault.color }}">
+      {{ seo.description }}
+    </div>
+  {% endif %}
+
+  {{ content | safe }}
+
+</article>

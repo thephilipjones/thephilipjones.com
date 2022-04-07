@@ -70,8 +70,7 @@ pageWidth: 'max-w-screen-xl px-4 md:px-8 lg:px-48 mx-auto'
 
 <article class="{{ structure.g_pageWidth }}">
 
-  <h1 class="print:hidden {{ colors.headingsCustom or colors.headingsDefault }}">{{ seo.title or title }}</h1>
-  <h1 class="hidden print:block {{ colors.headingsCustom or colors.headingsDefault }}">Philip Jones</h1>
+  <h1 class="{{ colors.headingsCustom or colors.headingsDefault }}">{{ seo.title or title }}</h1>
   <div class="text-sm {{ colors.authorCustom.date or colors.authorDefault.date}}">
     <time datetime="{{ date | dateToFormat("yyyy-MM-dd") }}">
       {{ date | dateToFormat("dd LLL yyyy") }}
