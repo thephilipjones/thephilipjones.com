@@ -9,7 +9,7 @@
     </div>
     {% if heroSettings.buttonText %}
       <div class="w-full mt-8 md:mt-12 ">
-        <a href="{{ heroSettings.buttonURL }}" class="py-2 px-4 rounded-full w-full xs:w-auto leading-none {{ heroSettings.buttonTextColor or colors.buttonCustom.text or colors.buttonDefault.text }} {{ heroSettings.buttonBgColor or colors.buttonCustom.bg or colors.buttonDefault.bg }} hover:{{ colors.buttonCustom.textHover or colors.buttonDefault.textHover }} hover:{{ heroSettings.buttonBgHover or colors.buttonCustom.bgHover or colors.buttonDefault.bgHover }} {{ heroSettings.buttonBorder or colors.buttonCustom.border or colors.buttonDefault.border }}">Contact Me</a>
+        <a href="{{ heroSettings.buttonURL }}" class="py-2 px-4 rounded-full w-full xs:w-auto leading-none {{ heroSettings.buttonTextColor or colors.buttonCustom.text or colors.buttonDefault.text }} {{ heroSettings.buttonBgColor or colors.buttonCustom.bg or colors.buttonDefault.bg }} hover:{{ colors.buttonCustom.textHover or colors.buttonDefault.textHover }} {{ heroSettings.buttonBgHover or colors.buttonCustom.bgHover or colors.buttonDefault.bgHover }} {{ heroSettings.buttonBorder or colors.buttonCustom.border or colors.buttonDefault.border }}">Contact Me</a>
         <span>&nbsp; or <a href="/resume">View my Resume</a>
       </div>
     {% endif %}
