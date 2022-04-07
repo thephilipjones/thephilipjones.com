@@ -16,6 +16,7 @@ tags:
   - InteractionDesigner
   - Webapp
   - ScienceLogicPM
+  - ScienceLogicUX
 ---
 
 ## What is going on with this device?!
@@ -28,14 +29,17 @@ So, if you see a device, say a server, go red on your screen, you investigate it
 
 ### One page to rule them all.
 
-Which version is this?!
+Again, devices are the core of the product. There are many ways to view and interact with devices, and the Investigator has evolved to account for two primary use cases.
 
-Prebuilt Dashboard or Metrics Browser.
-Summary tab vs Performance tab.
+The obvious classic UI comparison is the "Summary tab" and the "Performance tab".
+
+- prebuilt Dashboard or interactive Metrics Browser.
 
 Can the Investigator do both? Only to some degree.
 
 ### Lessons...
+
+- It's okay to have a
 
 ### The Symposium sizzle
 

@@ -13,18 +13,17 @@ categories: resume workplace
 highlights:
   - title: Lead product design for New UI transformation
   - title: UX Generalist - research, flows, mockups, you name it
-projects:
-  - title: SL1 Dashboards
-    link: '/2020-01-sl1-dashboards'
+  - title: Systematically design and test complex enterprise workflows
 ---
 
 Designed user interfaces:
 
-- <span class="skill"></span>
+- Initial delivery requested in <span class="skill">Axure</span> and <span class="skill">Balsamiq</span>
+- Leveled up organizational maturity to <span class="skill">Sketch</span> and <span class="skill">Material UI</span> component-based design systems
 
 Designed and analyzed user tests:
 
-- <span class="skill"></span>
+- Created customer <span class="skill"></span>
 
 Supported Product Management:
 
