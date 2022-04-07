@@ -186,15 +186,18 @@ module.exports = {
 		bg: 'bg-teal-700',
 		bgHover: 'bg-teal-700',
 		border: 'border-teal-900',
+		shadow: '',
+		activeShadow: '',
 	},
 	buttonCustom: {
-		text: '',
-		textHover: '',
-		bg: 'bg-red-700',
-		bgHover: 'bg-red-800',
+		text: 'text-gray-700',
+		textHover: 'text-white',
+		bg: 'bg-stone-300',
+		bgHover: 'bg-gradient-to-r from-indigo-500 to-purple-500',
 		border: 'border-red-900',
+		shadow: 'shadow shadow-stone-400',
+		activeShadow: 'shadow-sm',
 	},
-
 	/**
 	 * ===== Pagination Settings =====
 	 *

@@ -59,6 +59,9 @@
 	dd a {
 		@apply font-medium text-blue-900;
 	}
+	a.button {
+		-webkit-appearance: button;
+	}
 	p {
 		@apply mt-4 text-xl;
 	}

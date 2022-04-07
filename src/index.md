@@ -35,8 +35,8 @@ heroSettings:
   subheadingFirst: true
   buttonText: Contact Me # no button generated if left blank
   buttonURL: /contact/ # full url required. Example: https://thisdomain.com/somepage/
-  buttonTextColor: # leave blank to inherit from /src/_data/colors.buttonCustom or buttonDefault
-  buttonBgColor: # leave blank to inherit from /src/_data/colors.buttonCustom.bg or buttonDefault.bg
+  buttonTextColor: text-white # leave blank to inherit from /src/_data/colors.buttonCustom or buttonDefault
+  buttonBgColor: bg-red-700 # leave blank to inherit from /src/_data/colors.buttonCustom.bg or buttonDefault.bg
   buttonBgHover: # leave blank to inherit from /src/_data/colors.buttonCustom.bgHover or buttonDefault.bgHover
-  buttonBorder: # leave blank to inherit from /src/_data/colors.buttonCustom.border or buttonDefault.border
+  buttonBorder: border-red-900 # leave blank to inherit from /src/_data/colors.buttonCustom.border or buttonDefault.border
 ---
