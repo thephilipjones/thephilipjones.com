@@ -191,12 +191,12 @@ module.exports = {
 	},
 	buttonCustom: {
 		text: 'text-gray-700',
-		textHover: 'text-white',
+		textHover: 'hover:text-white',
 		bg: 'bg-stone-300',
 		bgHover: 'hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500',
 		border: 'border-red-900',
 		shadow: 'shadow shadow-stone-400',
-		activeShadow: 'shadow-sm',
+		activeShadow: 'active:shadow-sm',
 	},
 	/**
 	 * ===== Pagination Settings =====
