@@ -12,8 +12,9 @@ images: # relative to /src/assets/images/
   thumb: portfolio/thephilipjones.github.io.png
   slide:
 tags:
-  - web
-  - personal
+  - Freelance
+  - Personal
+  - Web
 ---
 
 _This site has been rebuilt into the one you're looking at now._

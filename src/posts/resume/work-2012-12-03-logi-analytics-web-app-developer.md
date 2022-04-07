@@ -6,6 +6,7 @@ org: Logi Analytics
 link: http://www.logianalytics.com
 location: McLean, VA
 title: Web App Developer
+resume: LogiWAD
 type: work
 categories: resume workplace
 highlights:

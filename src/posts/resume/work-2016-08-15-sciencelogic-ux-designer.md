@@ -7,6 +7,7 @@ org: ScienceLogic
 link: http://www.sciencelogic.com
 location: Reston, VA
 title: UX Designer
+resume: ScienceLogicUX
 type: work
 categories: resume workplace
 highlights:

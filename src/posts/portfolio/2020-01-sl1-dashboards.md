@@ -12,9 +12,11 @@ images: # relative to /src/assets/images/
   thumb: portfolio/sl1-dashboards-1.png
   slide:
 tags:
-  - product-manager
-  - interaction-designer
-  - webapp
+  - ProductManager
+  - InteractionDesigner
+  - Webapp
+  - ScienceLogicPM
+  - ScienceLogicUX
 ---
 
 ## The dashboards guy.

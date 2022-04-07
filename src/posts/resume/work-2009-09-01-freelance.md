@@ -1,8 +1,9 @@
 ---
 layout: resume
 date: 2009-09-01
-toDate: 2015-08-15
+# toDate: 2015-08-15
 org: Freelance
+resume: Freelance
 location: Arlington, VA
 categories: resume workplace
 title: ''

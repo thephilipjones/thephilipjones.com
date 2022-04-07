@@ -7,6 +7,7 @@ org: ScienceLogic
 link: http://www.sciencelogic.com
 location: Reston, VA
 title: Product Manager
+resume: ScienceLogicPM
 type: work
 categories: resume workplace
 highlights:

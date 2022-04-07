@@ -12,8 +12,9 @@ images: # relative to /src/assets/images/
   thumb: portfolio/thephilipjones.com.png
   slide:
 tags:
-  - web
-  - personal
+  - Freelance
+  - Personal
+  - Web
 ---
 
 ## It was time.

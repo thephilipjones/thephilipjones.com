@@ -12,9 +12,10 @@ images: # relative to /src/assets/images/
   thumb: portfolio/sl1-device-investigator-1.png
   slide:
 tags:
-  - product-manager
-  - interaction-designer
-  - webapp
+  - ProductManager
+  - InteractionDesigner
+  - Webapp
+  - ScienceLogicPM
 ---
 
 ## What is going on with this device?!

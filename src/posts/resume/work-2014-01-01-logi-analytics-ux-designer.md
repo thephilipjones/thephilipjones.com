@@ -7,6 +7,7 @@ org: Logi Analytics
 link: http://www.logianalytics.com
 location: McLean, VA
 title: UX-UI Designer
+resume: LogiUX
 type: work
 categories: resume workplace
 highlights:
