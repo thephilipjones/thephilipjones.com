@@ -1,5 +1,5 @@
 ---
-title: thePhilipJones.github.io
+title: thePhilipJones v1
 date: 2015-01-01T00:00:00.000Z
 excerpt: A professional Internet presence.
 draft:
@@ -12,7 +12,6 @@ images: # relative to /src/assets/images/
   thumb: portfolio/thephilipjones.github.io.png
   slide:
 tags:
-  - Freelance
   - Personal
   - Web
 ---

@@ -12,7 +12,6 @@ images: # relative to /src/assets/images/
   thumb: portfolio/thephilipjones.com.png
   slide:
 tags:
-  - Freelance
   - Personal
   - Web
 ---

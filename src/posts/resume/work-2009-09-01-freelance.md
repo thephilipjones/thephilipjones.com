@@ -1,20 +1,15 @@
 ---
 layout: resume
 date: 2009-09-01
-# toDate: 2015-08-15
+toDate: 2015-08-15
 org: Freelance
 resume: Freelance
-location: NoVA
+location: Arlington, VA
 categories: resume workplace
-title: ''
+title: Technical Consultant
 type: work
 highlights:
   - title: Technical odd jobs.
-projects:
-  - title: thePhilipJones.com
-    link: '/2021-12-thephilipjones.com/'
-  - title: thePhilipJones.github.io
-    link: '/2015-01-thephilipjones.github.io/'
 ---
 
 <span class="skill">Hardware</span> and <span class="skill">software design</span> of a home medical device for an early-stage startup
