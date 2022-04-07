@@ -17,13 +17,13 @@ module.exports = {
 		family: 'font-sans',
 	},
 
-	/** 
+	/**
 	 *
 	 * ===== Global Site Text Color =====
 	 */
 	siteTextDefault: 'text-gray-900',
 	siteTextCustom: '',
-	
+
 	siteBgDefault: 'bg-stone-150',
 	/** siteBgCustom: '', **/
 
@@ -93,7 +93,7 @@ module.exports = {
 	},
 
 	navHome: {
-		barBg: 'bg-nav', /* 'bg-transparent opacity-0', */
+		barBg: 'bg-nav' /* 'bg-transparent opacity-0', */,
 		text: 'text-gray-700',
 		textActive: 'text-gray-800',
 		textHover: 'text-gray-800',
@@ -111,7 +111,6 @@ module.exports = {
 		mobileButtonHover: 'text-gray-600',
 		mobileButtonBgHover: 'bg-gray-100',
 	},
-
 
 	/**
 	 * ===== Logo / SVG =====
@@ -141,7 +140,7 @@ module.exports = {
 	 * ===== Excerpts on Post Lists
 	 */
 	excerptDefault: 'text-gray-700',
-	excerptCustom: 'text-sm leading-relaxed italic text-gray-700',
+	excerptCustom: 'text-base leading-relaxed italic text-gray-700',
 
 	/**
 	 * ===== Author / Date Block and their Social Icons =====
