@@ -15,27 +15,49 @@
 	h6 {
 		@apply font-semibold text-gray-700;
 	}
+
 	h1 {
-		@apply text-5xl;
+		@apply text-3xl;
 	}
 	h2 {
-		@apply pt-12 text-4xl;
+		@apply pt-12 text-2xl;
 	}
 	h3 {
-		@apply pt-8 text-3xl;
+		@apply pt-8 text-xl;
 	}
 	h4 {
-		@apply text-2xl;
+		@apply text-lg;
 	}
 	h5 {
-		@apply text-xl;
+		@apply text-base;
+	}
+
+	@media screen(sm) {
+		h1 {
+			@apply text-5xl;
+		}
+		h2 {
+			@apply pt-12 text-4xl;
+		}
+		h3 {
+			@apply pt-8 text-3xl;
+		}
+		h4 {
+			@apply text-2xl;
+		}
+		h5 {
+			@apply text-xl;
+		}
+		ul {
+			@apply text-lg;
+		}
 	}
 
 	p a,
 	li a,
 	blockquote a,
 	dd a {
-		@apply font-medium text-indigo-700;
+		@apply font-medium text-blue-900;
 	}
 	p {
 		@apply mt-4 text-xl;
@@ -48,7 +70,7 @@
 		@apply pt-4 ml-8 list-decimal text-lg;
 	}
 	ul {
-		@apply pt-4 ml-8 list-disc text-lg;
+		@apply pt-4 ml-8 list-disc;
 	}
 	blockquote {
 		@apply pl-4 m-4 border-l-4 border-gray-500;
@@ -63,9 +85,16 @@
 	@media print {
 		a[href] {
 			text-decoration: none;
-			&:after {
-				content: '';
+			a:after {
+				content: '(' attr(href) ')';
 			}
+			color: inherit;
+		}
+		.skill {
+			@apply bg-none p-0;
+		}
+		ul {
+			@apply pt-2 text-sm;
 		}
 		h1 {
 			@apply text-3xl;
@@ -80,13 +109,7 @@
 			@apply text-lg;
 		}
 		h5 {
-			@apply text-base;
-		}
-		.skill {
-			@apply bg-none p-0;
-		}
-		ul {
-			@apply pt-2 ml-8 list-disc text-sm;
+			@apply font-normal text-base;
 		}
 	}
 }
