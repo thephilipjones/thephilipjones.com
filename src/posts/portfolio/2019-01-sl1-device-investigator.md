@@ -43,4 +43,6 @@ Can the Investigator do both? Only to some degree.
 
 ### The Symposium sizzle
 
+<!-- {% youtube "9445EyapbYc", "SL1 Device Investigator at Symposium" %} -->
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9445EyapbYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
