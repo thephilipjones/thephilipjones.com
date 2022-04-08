@@ -1,0 +1,7 @@
+<div class="my-8 h-3/4">
+<div class="h-full main-carousel" data-flickity='{"lazyLoad":"1", "wrapAround":true}'>
+{% for image in carousel.images %}
+<div class="w-full h-full bg-center bg-contain bg-no-repeat carousel-cell" style="background-image: url(/assets/images/{{ image }});"></div>
+{% endfor %}
+</div>
+</div>
