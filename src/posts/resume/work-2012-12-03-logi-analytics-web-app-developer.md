@@ -10,24 +10,31 @@ resume: LogiWAD
 type: work
 categories: resume workplace
 highlights:
-  - title: Embedded in Sales Engineering team to demonstrate platform value to prospects
+  - title: Embed in Sales Engineering team to demo and sell a B2B2C platform as a product deployment
   - title: Create and maintain example BI apps with latest technologies
+  - title: Solo mission to re-skin and revitalize an aging product
+certifications:
+  - title: Stanford Online Intro to Databases (03/2013)
+certification_images: # relative to /src/assets/images/
+  - image: certifications/stanford-online.png
+    link:
 ---
 
-Developed business intelligence web applications:
+Embed in Pre-Sales Engineering team:
 
-- Created and customized Logi Info web apps with <span class="skill">HTML5</span>, <span class="skill">CSS</span>, <span class="skill">JavaScript</span>, <span class="skill">PHP</span>
-- Embedded and customized modern frameworks like <span class="skill">Bootstrap</span>, <span class="skill">SugarCRM</span>, <span class="skill">RaphaelJS</span>
-- Created and maintained demo assets to highlight platform strengths
-- Created and demonstrated proof-of-concept BI apps for prospective clients
+- Sell a B2B2C platform as a product deployment
+- Demonstrate software on sales calls
+- Impress technical prospects at trade shows
 
-Supported other Pre-Sales Engineering team members:
+Develop business intelligence web applications:
 
-- Demonstrated software on sales calls
-- Impressed technical prospects at trade shows
+- Create and demonstrate proof-of-concept BI apps for prospective clients
+- Create and maintaine demo assets to highlight platform strengths
+- Create and customize Logi Info web apps with <span class="skill">HTML5</span>, <span class="skill">CSS</span>, <span class="skill">JavaScript</span>, <span class="skill">PHP</span>
+- Embed and customize modern frameworks like <span class="skill">Bootstrap</span>, <span class="skill">SugarCRM</span>, <span class="skill">RaphaelJS</span>
 
-Designed and developed enhancements to Logi Ad Hoc:
+Design and develop enhancements to Logi Ad Hoc:
 
 - "Loaned" to Product team to re-skin aging product <span class="skill">CSS</span> to modern visual style
-- Enhanced functionality as scope allowed with <span class="skill">UX design</span> "finishing touches"
-- Improved <span class="skill">graphic design</span> layout and images
+- Enhance functionality within scope with <span class="skill">UI polish</span>
+- Improved <span class="skill">graphic design</span> with layout and images
