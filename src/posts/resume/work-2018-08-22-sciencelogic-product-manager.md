@@ -1,7 +1,7 @@
 ---
 layout: resume
 draft:
-date: 2018-09-01
+date: 2018-08-22
 toDate:
 org: ScienceLogic
 link: http://www.sciencelogic.com
