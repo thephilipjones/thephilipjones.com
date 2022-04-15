@@ -15,11 +15,11 @@
       </div>
         {% if post.data.date %}
           <div class="flex-shrink-0 inline item__date">
-            <time datetime="{{ post.data.date | dateToFormat("yyyy-MM") }}">{{ post.data.date | dateToFormat("LLL yyyy") }}</time>
+            <time datetime="{{ post.data.date | dateToFormat("yyyy-MM") }}">{{ post.data.date | dateToFormat("yyyy") }}</time>
             <span> – </span>
             <span>
               {% if post.data.toDate %}
-              <time datetime="{{ post.data.toDate | dateToFormat("yyyy-MM") }}">{{ post.data.toDate | dateToFormat("LLL yyyy") }}</time>
+              <time datetime="{{ post.data.toDate | dateToFormat("yyyy-MM") }}">{{ post.data.toDate | dateToFormat("yyyy") }}</time>
               {% else %}Present{% endif %}
             </span>
           </div>
