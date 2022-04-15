@@ -12,8 +12,9 @@ type: work
 categories: resume workplace
 highlights:
   - title: Lead product design for New UI transformation
+  - title: Systematically design complex enterprise workflows and validate with customers
+  - title: Embed in scrum teams to spec requirements and test end-to-end implementations
   - title: UX Generalist - research, flows, mockups, you name it
-  - title: Systematically design and test complex enterprise workflows
 ---
 
 Designed user interfaces:

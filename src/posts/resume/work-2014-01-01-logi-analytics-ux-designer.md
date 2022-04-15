@@ -11,7 +11,7 @@ resume: LogiUX
 type: work
 categories: resume workplace
 highlights:
-  - title: Designing and developing awesome BI products and platforms.
+  - title: Design and develop awesome BI products and platforms.
   - title: From the big-picture product decisions to the smallest UI detail.
   - title: From the information and database design to the user testing and analysis.
   - title: From the whiteboard to the LESS front-end theming architecture.

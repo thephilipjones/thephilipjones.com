@@ -11,7 +11,7 @@ resume: ScienceLogicPM
 type: work
 categories: resume workplace
 highlights:
-  - title: Build and deliver IT software that solves business problems
+  - title: Produce market-leading IT software that solves business problems
   - title: Define and execute the product vision and roadmap with internal and external stakeholders
   - title: Work closely with Engineering and Design at macro and micro levels to ensure successful delivery
   - title: Validate with customers and users to ensure alignment with Sales and Customer Success
