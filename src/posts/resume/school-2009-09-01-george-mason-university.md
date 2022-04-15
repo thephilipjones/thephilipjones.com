@@ -12,7 +12,7 @@ highlights:
   - title: Systems Design and Cognitive Engineering
   - title: Human Performance and Task Analysis
   - title: Interaction Behaviors and Usability Testing
-  - title: President, ACM SIGCHI GMU chapter
+  - title: President, ACM SIGCHI (Computer-Human Interaction) GMU chapter
 ---
 
 Systems Design and Cognitive Engineering:

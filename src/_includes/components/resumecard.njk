@@ -45,10 +45,10 @@
     {% endif %}
 
     {% if projectlist.length > 0 %}
-      <div class="mt-6 print:mt-3">
+      <div class="mt-6 print:mt-3 print:hidden">
         <h5 class="">Projects</h5>
 
-        <ul class="hidden print:block pt-0">
+        <ul class="hidden pt-0"> {# print:block #}
           {% for project in projectlist %}
             <li><a class="" href="{{ project.url | url }}">{{ project.data.title }}</a></li>
           {% endfor %}
