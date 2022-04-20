@@ -1,9 +1,8 @@
 module.exports = {
 	siteURL: process.env.URL || 'http://localhost:8080',
-	siteName: "thePhilipJones.com",
-	siteDescription:
-		'the Philip Jones.',
-	siteImage: '/assets/images/site/default.png',
+	siteName: 'the Philip Jones',
+	siteDescription: "Hey! I'm Philip.",
+	siteImage: '/assets/images/site/siteImage.jpg',
 	lang: 'en',
 	locale: 'en_us',
 	authorName: 'Philip Jones',
