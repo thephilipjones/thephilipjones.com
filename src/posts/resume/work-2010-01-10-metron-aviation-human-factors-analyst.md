@@ -11,7 +11,7 @@ type: work
 categories: resume workplace
 highlights:
   - title: Create requirements, IA, UI, wireframes, prototypes for highly technical aviation software
-  - title: Research Human Factors and evaluate usability for government contracts
+  # - title: Research Human Factors and evaluate usability for government contracts
 certifications:
   - title: CMMI 1.2 Level 5 training
 certification_images: # relative to /src/assets/images/

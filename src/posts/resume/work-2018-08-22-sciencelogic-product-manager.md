@@ -13,8 +13,8 @@ categories: resume workplace
 highlights:
   - title: Produce market-leading IT software that solves business problems
   - title: Define and execute the product vision and roadmap with internal and external stakeholders
-  - title: Work closely with Engineering and Design at macro and micro levels to ensure successful delivery
-  - title: Validate with customers and users to ensure alignment with Sales and Customer Success
+  - title: Lead Engineering and Design teams at macro and micro levels to ensure successful delivery
+  - title: Validate with customers and users to establish go-to-market strategy with Sales and Customer Success
 projects:
   - title: SL1 Dashboards
     link: '/2020-01-sl1-dashboards'

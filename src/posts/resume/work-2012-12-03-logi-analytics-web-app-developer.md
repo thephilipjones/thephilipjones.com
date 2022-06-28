@@ -11,8 +11,8 @@ type: work
 categories: resume workplace
 highlights:
   - title: Embed in Sales Engineering team to demo and sell a B2B2C platform as a product deployment
-  - title: Create and maintain example BI apps with latest technologies
-  - title: Solo mission to re-skin and revitalize an aging product
+  # - title: Create and maintain example BI apps with latest technologies
+  # - title: Solo mission to re-skin and revitalize an aging product
 certifications:
   - title: Stanford Online Intro to Databases (03/2013)
 certification_images: # relative to /src/assets/images/

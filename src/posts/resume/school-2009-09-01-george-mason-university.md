@@ -9,10 +9,10 @@ title: 'MA, Psychology: Human Factors and Applied Cognition'
 type: school
 categories: resume school
 highlights:
-  - title: Systems Design and Cognitive Engineering
-  - title: Human Performance and Task Analysis
-  - title: Interaction Behaviors and Usability Testing
-  - title: President, ACM SIGCHI (Computer-Human Interaction) GMU chapter
+  # - title: Systems Design and Cognitive Engineering
+  # - title: Human Performance and Task Analysis
+  # - title: Interaction Behaviors and Usability Testing
+  # - title: President, ACM SIGCHI (Computer-Human Interaction) GMU chapter
 ---
 
 Systems Design and Cognitive Engineering:
