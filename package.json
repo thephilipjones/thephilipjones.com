@@ -1,7 +1,7 @@
 {
 	"name": "thePhilipJones.com",
 	"version": "1.0.0",
-	"description": "Personal portfolio with 11ty, TailwindCSS, TailwindUI, and Alpine.js",
+	"description": "Personal portfolio with 11ty, TailwindCSS, TailwindUI, and more",
 	"author": "Philip Jones",
 	"license": "MIT",
 	"bugs": {
