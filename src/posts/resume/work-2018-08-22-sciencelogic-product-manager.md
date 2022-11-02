@@ -2,7 +2,7 @@
 layout: resume
 draft:
 date: 2018-08-22
-toDate:
+toDate: 2022-10-07
 org: ScienceLogic
 link: http://www.sciencelogic.com
 location: Reston, VA
