@@ -11,7 +11,8 @@ resume: ScienceLogicPM
 type: work
 categories: resume workplace
 highlights:
-  - title: Produce market-leading IT software that solves business problems
+  - title: Produce enterprise market-leading IT monitoring platform to transform business problems
+  - title: Enable customers to visualize an incredible diversity of data from APIs to executive dashboards
   - title: Define and execute the product vision and roadmap with internal and external stakeholders
   - title: Lead Engineering and Design teams at macro and micro levels to ensure successful delivery
   - title: Validate with customers and users to establish go-to-market strategy with Sales and Customer Success

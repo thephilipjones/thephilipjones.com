@@ -12,6 +12,7 @@ type: work
 categories: resume workplace
 highlights:
   - title: Disrupt the IT Infrastructure Channel with innovative technical solutions to business problems
+  - title: Lead Agile cross-functional process improvement and connect Product mindset with sales outcomes
 #   - title: Define and execute the product vision and roadmap with internal and external stakeholders
 #   - title: Lead Engineering and Design teams at macro and micro levels to ensure successful delivery
 #   - title: Validate with customers and users to establish go-to-market strategy with Sales and Customer Success
