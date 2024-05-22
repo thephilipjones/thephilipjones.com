@@ -11,11 +11,9 @@ resume: UpstackPM
 type: work
 categories: resume workplace
 highlights:
-  - title: Disrupt the IT Infrastructure Channel with innovative technical solutions to business problems
-  - title: Lead Agile cross-functional process improvement and connect Product mindset with sales outcomes
-#   - title: Define and execute the product vision and roadmap with internal and external stakeholders
-#   - title: Lead Engineering and Design teams at macro and micro levels to ensure successful delivery
-#   - title: Validate with customers and users to establish go-to-market strategy with Sales and Customer Success
+  - title: Lead Innovation Team to evaluate and (dis)qualify technology choices to disrupt the IT Infrastructure Channel
+  - title: Champion and thought-lead bleeding-edge AI/ML solutions to strategic yet tangible business outcomes
+  - title: Drive Agile cross-functional process improvement and connect Product mindset to Sales culture
 projects:
 #   - title: SL1 Dashboards
 #     link: '/2020-01-sl1-dashboards'
