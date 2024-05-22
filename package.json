@@ -38,7 +38,7 @@
 		"debug": "cross-env DEBUG=* npx @11ty/eleventy"
 	},
 	"devDependencies": {
-		"@11ty/eleventy": "^1.0.0",
+		"@11ty/eleventy": "^2.0.1",
 		"@11ty/eleventy-navigation": "^0.1.6",
 		"@11ty/eleventy-plugin-rss": "^1.1.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
@@ -72,7 +72,7 @@
 		"webpack-cli": "^5.1.4"
 	},
 	"dependencies": {
-		"@11ty/eleventy-upgrade-help": "^1.0.1",
+		"@11ty/eleventy-upgrade-help": "^2.0.5",
 		"debug": "^4.3.4",
 		"typer-js": "^5.5.3"
 	}

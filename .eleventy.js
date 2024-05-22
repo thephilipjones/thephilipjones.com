@@ -13,6 +13,9 @@ const shortcodes = require('./utils/shortcodes.js')
 const pairedshortcodes = require('./utils/paired-shortcodes.js')
 const transforms = require('./utils/transforms.js')
 
+// https://www.11ty.dev/docs/plugins/upgrade-help/
+// const UpgradeHelper = require('@11ty/eleventy-upgrade-help')
+
 // https://www.11ty.dev/docs/quicktips/inline-js/
 const { minify } = require('terser')
 
@@ -29,6 +32,9 @@ module.exports = function (eleventyConfig) {
 		path: './src/assets/svg',
 		globalClasses: 'fill-current',
 	})
+
+	// If you have other `addPlugin` calls, it’s important that UpgradeHelper is added last.
+	// eleventyConfig.addPlugin(UpgradeHelper)
 
 	/**
 	 * Filters
