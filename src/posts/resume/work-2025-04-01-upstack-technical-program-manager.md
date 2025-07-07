@@ -1,45 +1,50 @@
 ---
 layout: resume
 draft:
-date: 2022-10-11
-toDate: 2025-01-01
+date: 2025-01-01
+toDate: 2025-07-07
 org: UPSTACK
 link: http://www.upstack.com
 location: Remote (NYC)
-title: Product Manager
-resume: UPSTACKPM
+title: Technical Program Manager, AI & Innovation
+resume: UpstackTPM
 type: work
 categories: resume workplace
 highlights:
-  - title: Lead Innovation Team to evaluate and (dis)qualify technology choices to disrupt the IT Infrastructure Channel
-  - title: Champion and thought-lead bleeding-edge AI/ML solutions to strategic yet tangible business outcomes
-  - title: Management and experimentation using Dataiku orchestration platform to drive enterprise data strategy
+  - title: Launch and lead the AI Program to turn R&D into delivered solutions, publicizing consistent execution of our AI strategy
+  - title: Launch and lead the Innovation Center, engaging the UPSTACK community with AI enablement and resources
+  - title: Own Product Operations processes and implementations, focusing on clarity and efficiency
+#   - title: Champion and thought-lead bleeding-edge AI/ML solutions to strategic yet tangible business outcomes
+#   - title: Drive Agile cross-functional process improvement and connect Product mindset to Sales culture
+#   - title: Management and experimentation using Dataiku orchestration platform to drive enterprise data strategy
 projects:
-  - title: Tally
-    link: '/2024-09-tally'
+#   - title: SL1 Dashboards
+#     link: '/2020-01-sl1-dashboards'
 #   - title: SL1 Device Investigator
 #     link: '/2019-01-sl1-device-investigator/'
 #   - title: SL1 Global Manager
 #     link: '/2018-01-sl1-global-manager/'
-certifications:
-  - title: Dataiku Core Designer
-    link: http://verify.skilljar.com/c/j46nav77cndi
+# certifications:
+#   - title: Dataiku Core Designer
+#     link: http://verify.skilljar.com/c/j46nav77cndi
 #   - title: Certified SAFe 5 Product Owner/Product Manager
 #     link: https://www.credly.com/badges/b9c9ab2a-2223-43a4-99e1-aa16353285ff/public_url
 #   - title: Certified SAFe 4 Scrum Master
 #     link: https://www.youracclaim.com/badges/1d477edf-abd5-4e09-b53c-e947faf1c809/linked_in_profile
-certification_images: # relative to /src/assets/images/
-  - image: certifications/dataiku-1-cd.png
-    link: http://verify.skilljar.com/c/j46nav77cndi
+# certification_images: # relative to /src/assets/images/
+#   - image: certifications/dataiku-1-cd.png
+#     link: http://verify.skilljar.com/c/j46nav77cndi
 #   - image: certifications/safe-5-popm.png
 #     link: https://www.credly.com/badges/b9c9ab2a-2223-43a4-99e1-aa16353285ff/public_url
 #   - image: certifications/safe-4-sm.png
 #     link: https://www.youracclaim.com/badges/1d477edf-abd5-4e09-b53c-e947faf1c809/linked_in_profile
 ---
 
-Disrupting the Channel.
+Own the delivery of our AI Program.
 
-Meet business targets by coalescing varying constituents
+Own the direction of our Technology investments.
+
+Own the operations of our Product organizations.
 
 <!-- - Clients
 - Suppliers
