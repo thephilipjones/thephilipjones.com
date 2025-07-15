@@ -13,8 +13,7 @@ categories: resume workplace
 highlights:
   - title: Produce enterprise market-leading IT monitoring platform to transform business problems
   - title: Enable customers to visualize an incredible diversity of data from APIs to executive dashboards
-  - title: Define and execute the product vision and roadmap with internal and external stakeholders
-  - title: Validate with customers and users to establish go-to-market strategy with Sales and Customer Success
+  - title: Connect internal and external stakeholders with the product vision, roadmap, and go-to-market strategy
 projects:
   - title: SL1 Dashboards
     link: '/2020-01-sl1-dashboards'

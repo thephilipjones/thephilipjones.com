@@ -11,9 +11,9 @@ resume: UpstackTPM
 type: work
 categories: resume workplace
 highlights:
-  - title: Launch and lead the AI Program to turn R&D into delivered solutions, publicizing consistent execution of our AI strategy
+  - title: Launch and lead the AI Program to prioritize R&D and deliver consistently executed solutions
   - title: Launch and lead the Innovation Center, engaging the UPSTACK community with AI enablement and resources
-  - title: Own Product Operations processes and implementations, focusing on clarity and efficiency
+  - title: Run Product Operations processes and implementations to improve alignment and efficiency
 #   - title: Champion and thought-lead bleeding-edge AI/ML solutions to strategic yet tangible business outcomes
 #   - title: Drive Agile cross-functional process improvement and connect Product mindset to Sales culture
 #   - title: Management and experimentation using Dataiku orchestration platform to drive enterprise data strategy

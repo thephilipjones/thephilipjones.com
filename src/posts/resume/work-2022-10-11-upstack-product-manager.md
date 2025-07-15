@@ -11,9 +11,9 @@ resume: UPSTACKPM
 type: work
 categories: resume workplace
 highlights:
-  - title: Lead Innovation Team to evaluate and (dis)qualify technology choices to disrupt the IT Infrastructure Channel
-  - title: Champion and thought-lead bleeding-edge AI/ML solutions to strategic yet tangible business outcomes
-  - title: Management and experimentation using Dataiku orchestration platform to drive enterprise data strategy
+  - title: Solve the biggest issues facing the business as an internal PM "secret weapon"
+  - title: Execute 0-1 solution to revolutionize Commissions payment reconciliation in 6 months, resulting in major improvements to efficiency, accuracy, and user satisfaction
+  - title: Introduce technology innovations to enable the company mission of disrupting the IT Infrastructure Channel, including data platform strategy, AI tools, and self-service analytics
 projects:
   - title: Tally
     link: '/2024-09-tally'
