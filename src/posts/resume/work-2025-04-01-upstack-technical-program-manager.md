@@ -24,16 +24,16 @@ projects:
 #     link: '/2019-01-sl1-device-investigator/'
 #   - title: SL1 Global Manager
 #     link: '/2018-01-sl1-global-manager/'
-# certifications:
-#   - title: Dataiku Core Designer
-#     link: http://verify.skilljar.com/c/j46nav77cndi
+certifications:
+  - title: AWS Cloud Practitioner
+    link: https://www.credly.com/badges/88b106d4-e87f-407e-936c-1e24d3b52673/public_url
 #   - title: Certified SAFe 5 Product Owner/Product Manager
 #     link: https://www.credly.com/badges/b9c9ab2a-2223-43a4-99e1-aa16353285ff/public_url
 #   - title: Certified SAFe 4 Scrum Master
 #     link: https://www.youracclaim.com/badges/1d477edf-abd5-4e09-b53c-e947faf1c809/linked_in_profile
-# certification_images: # relative to /src/assets/images/
-#   - image: certifications/dataiku-1-cd.png
-#     link: http://verify.skilljar.com/c/j46nav77cndi
+certification_images: # relative to /src/assets/images/
+  - image: certifications/aws-certified-cloud-practitioner.png
+    link: https://www.credly.com/badges/88b106d4-e87f-407e-936c-1e24d3b52673/public_url
 #   - image: certifications/safe-5-popm.png
 #     link: https://www.credly.com/badges/b9c9ab2a-2223-43a4-99e1-aa16353285ff/public_url
 #   - image: certifications/safe-4-sm.png
