@@ -31,7 +31,7 @@ The build system runs three parallel processes via `npm-run-all`:
 
 1. **Webpack** (`dev:webpack`): Bundles JavaScript from `src/assets/scripts/main.js` (primarily Alpine.js)
 2. **Eleventy** (`dev:eleventy`): Processes templates, markdown, and generates static HTML
-3. **PostCSS** (`dev:postcss`): Processes TailwindCSS with JIT mode
+3. **PostCSS** (`dev:postcss`): Processes TailwindCSS
 
 Output directory: `dist/`
 
@@ -87,10 +87,10 @@ Template formats processed: `html`, `njk`, `md`
 
 ## Styling
 
-- **Framework**: TailwindCSS v3 with JIT mode
+- **Framework**: TailwindCSS v3.4.18 (JIT mode is default)
 - **Config**: `tailwind.config.js` - custom fonts (Alegreya, Alegreya Sans), custom heights, extended colors
-- **Plugins**: `@tailwindcss/forms`, `@tailwindcss/typography`
-- **Processing**: PostCSS with cssnano for minification in production
+- **Plugins**: `@tailwindcss/forms` v0.5.10, `@tailwindcss/typography` v0.5.19
+- **Processing**: PostCSS with autoprefixer and cssnano for minification in production
 
 ## JavaScript
 

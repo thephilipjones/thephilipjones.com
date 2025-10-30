@@ -1,7 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-	mode: 'jit',
 	content: [
 		'./src/**/*.html',
 		'./src/**/*.njk',
@@ -9,12 +8,6 @@ module.exports = {
 		'./src/_data/colors.js',
 		'./src/_data/structure.js',
 	],
-	experimental: {
-		applyComplexClasses: true,
-	},
-	future: {
-		removeDeprecatedGapUtilities: true,
-	},
 	theme: {
 		fontFamily: {
 			sans: [
