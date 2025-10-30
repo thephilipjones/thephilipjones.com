@@ -6,19 +6,15 @@
     <title>{{ seo.title or title }}  | {{ meta.siteName }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&family=Alegreya:wght@400;700&display=swap" rel="stylesheet">     <link rel="alternate" type="application/atom+xml" title="RSS Feed for {{ meta.siteName }}" href="/feed.xml"/>
-    <link rel="stylesheet" href="/assets/tailwind.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&family=Alegreya:wght@400;700&display=swap" rel="stylesheet">
     <link rel="alternate" type="application/atom+xml" title="RSS Feed for {{ meta.siteName }}" href="/feed.xml"/>
+    <link rel="stylesheet" href="/assets/tailwind.css"/>
     {# Only include the Flickity js if this page uses a hero.carousel  #}
     {% if hero == "carousel" or product.carousel -%}
       <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
       <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
     {%- endif -%}
     {%- include "partials/head.njk" %}
-    {% set philipCSS %}{% include "src/assets/css/philip.css" %}{% endset -%}
-    <style>
-      {{philipCSS | cssmin | safe}}
-    </style>
     {% set prismOkaidia %}{% include "src/assets/css/prism-okaidia.css" %}{% endset -%}
     <style>
       {{prismOkaidia | cssmin | safe}}
