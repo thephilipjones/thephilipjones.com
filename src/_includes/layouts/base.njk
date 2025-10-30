@@ -19,7 +19,6 @@
     <style>
       {{philipCSS | cssmin | safe}}
     </style>
-    {%- include "partials/head.njk" %}
     {% set prismOkaidia %}{% include "src/assets/css/prism-okaidia.css" %}{% endset -%}
     <style>
       {{prismOkaidia | cssmin | safe}}
@@ -58,12 +57,10 @@
     <script src="/assets/main.js" defer></script>
 
     {# Only include the Flickity js if this page uses a hero.carousel  #}
-    {# {% if hero == "carousel" or product.carousel %} #}
+    {% if hero == "carousel" or product.carousel %}
       <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
       <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
-      <!-- CSS -->
-      <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    {# {% endif %} #}
+    {% endif %}
 
   </body>
 </html>

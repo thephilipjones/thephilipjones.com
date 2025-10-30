@@ -30,7 +30,7 @@
 		"prod:webpack": "webpack  --mode production",
 		"prod:eleventy": "ELEVENTY_ENV=production eleventy --serve",
 		"prod:postcss": "NODE_ENV=production postcss src/assets/css/tailwind.css -o dist/assets/tailwind.css --watch",
-		"prod": "npm-run-all clean --parallel dev:* --print-label",
+		"prod": "npm-run-all clean --parallel prod:* --print-label",
 		"build:webpack": "webpack  --mode production",
 		"build:eleventy": "ELEVENTY_ENV=production eleventy",
 		"build:postcss": "NODE_ENV=production postcss src/assets/css/tailwind.css -o dist/assets/tailwind.css",
