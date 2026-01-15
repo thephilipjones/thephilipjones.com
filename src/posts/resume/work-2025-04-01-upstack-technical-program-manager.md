@@ -25,19 +25,12 @@ projects:
 #   - title: SL1 Global Manager
 #     link: '/2018-01-sl1-global-manager/'
 certifications:
-  - title: Data Engineering from DeepLearning.AI
-    link: https://www.coursera.org/account/accomplishments/specialization/FYV72ZK851GV
-  - title: AWS Cloud Practitioner
-    link: https://www.credly.com/badges/88b106d4-e87f-407e-936c-1e24d3b52673/public_url
-  - title: Databricks Fundamentals and Analytics
-    # link: https://www.credly.com/badges/b9c9ab2a-2223-43a4-99e1-aa16353285ff/public_url
-certification_images: # relative to /src/assets/images/
-  - image: certifications/deep-learning.png
-    link: https://www.coursera.org/account/accomplishments/specialization/FYV72ZK851GV
-  - image: certifications/aws-certified-cloud-practitioner.png
-    link: https://www.credly.com/badges/88b106d4-e87f-407e-936c-1e24d3b52673/public_url
-  - image: certifications/databricks-fundamentals.png
-    # link: https://www.credly.com/badges/b9c9ab2a-2223-43a4-99e1-aa16353285ff/public_url
+  # - title: Data Engineering from DeepLearning.AI
+  #   link: https://www.coursera.org/account/accomplishments/specialization/FYV72ZK851GV
+certification_images:
+  # relative to /src/assets/images/
+  # - image: certifications/deep-learning.png
+  #   link: https://www.coursera.org/account/accomplishments/specialization/FYV72ZK851GV
 ---
 
 Own the delivery of our AI Program.

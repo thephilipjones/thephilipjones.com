@@ -1,5 +1,8 @@
 typer('#typer-text', { min: 30, max: 300 })
 	.line("I'm a ")
+	.continue('solutions architect')
+	.pause(1000)
+	.back(-6, 10)
 	.continue('product manager')
 	.pause(1000)
 	.back(-6, 10)
